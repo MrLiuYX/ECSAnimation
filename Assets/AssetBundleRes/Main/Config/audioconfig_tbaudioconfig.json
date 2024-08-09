@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1001001,
+    "AudioGroup": 1,
+    "AudioName": "武器撞击_10101"
+  },
+  {
+    "Id": 1002001,
+    "AudioGroup": 1,
+    "AudioName": "武器破损10101"
+  },
+  {
+    "Id": 1003001,
+    "AudioGroup": 1,
+    "AudioName": "角色死亡"
+  },
+  {
+    "Id": 1003002,
+    "AudioGroup": 1,
+    "AudioName": "角色升级"
+  },
+  {
+    "Id": 2001001,
+    "AudioGroup": 2,
+    "AudioName": "场景BGM"
+  }
+]

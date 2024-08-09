@@ -1,0 +1,122 @@
+[
+  {
+    "id": "BS_Items_01",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      1000,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "BS_Items_02",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      750,
+      250,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "BS_Items_03",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      500,
+      300,
+      200,
+      0
+    ]
+  },
+  {
+    "id": "BS_Items_04",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      400,
+      330,
+      250,
+      20
+    ]
+  },
+  {
+    "id": "BS_Items_05",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      250,
+      400,
+      300,
+      50
+    ]
+  },
+  {
+    "id": "BS_Items_06",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      190,
+      300,
+      350,
+      160
+    ]
+  },
+  {
+    "id": "BS_Items_07",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      150,
+      200,
+      350,
+      300
+    ]
+  },
+  {
+    "id": "BS_Items_08",
+    "ItemsGroup": [
+      "BS_Type_01",
+      "BS_Type_02",
+      "BS_Type_03",
+      "BS_Type_04"
+    ],
+    "ItemsPro": [
+      100,
+      150,
+      300,
+      450
+    ]
+  }
+]

@@ -1,0 +1,459 @@
+[
+  {
+    "id": 1,
+    "name": "1_Name",
+    "desc": "1_Desc",
+    "anim": "H_QX_lvbu",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": [
+      "Skill_2",
+      "Skill_3"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "2_Name",
+    "desc": "2_Desc",
+    "anim": "H_SH_zhugeiliang",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": []
+  },
+  {
+    "id": 3,
+    "name": "3_Name",
+    "desc": "3_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": [
+      "Skill_5"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "4_Name",
+    "desc": "4_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": []
+  },
+  {
+    "id": 5,
+    "name": "5_Name",
+    "desc": "5_Desc",
+    "anim": "H_CW_dianwei",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": []
+  },
+  {
+    "id": 6,
+    "name": "6_Name",
+    "desc": "6_Desc",
+    "anim": "H_QX_zhangjiao",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": []
+  },
+  {
+    "id": 7,
+    "name": "7_Name",
+    "desc": "7_Desc",
+    "anim": "H_SH_zhangfei",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": [
+      "Skill_4"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "8_Name",
+    "desc": "8_Desc",
+    "anim": "H_SH_zhaoyun",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": []
+  },
+  {
+    "id": 9,
+    "name": "9_Name",
+    "desc": "9_Desc",
+    "anim": "H_QX_zuoci",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": []
+  },
+  {
+    "id": 10,
+    "name": "10_Name",
+    "desc": "10_Desc",
+    "anim": "H_SH_huangzhong",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 4,
+    "HeroStar": 4,
+    "Skills": []
+  },
+  {
+    "id": 11,
+    "name": "11_Name",
+    "desc": "11_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 12,
+    "name": "12_Name",
+    "desc": "12_Desc",
+    "anim": "H_SW_sunjian",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 13,
+    "name": "13_Name",
+    "desc": "13_Desc",
+    "anim": "H_SH_machao",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 14,
+    "name": "14_Name",
+    "desc": "14_Desc",
+    "anim": "H_CW_xuchu",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 15,
+    "name": "15_Name",
+    "desc": "15_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 16,
+    "name": "16_Name",
+    "desc": "16_Desc",
+    "anim": "H_CW_xiaohoudun",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 17,
+    "name": "17_Name",
+    "desc": "17_Desc",
+    "anim": "H_SW_taishici",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 18,
+    "name": "18_Name",
+    "desc": "18_Desc",
+    "anim": "H_QX_dongzhuo",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": []
+  },
+  {
+    "id": 19,
+    "name": "19_Name",
+    "desc": "19_Desc",
+    "anim": "H_SW_lvmeng",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": [
+      "Skill_25",
+      "Skill_26",
+      "Skill_27",
+      "Skill_28"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "20_Name",
+    "desc": "20_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": [
+      "Skill_23",
+      "Skill_24"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "21_Name",
+    "desc": "21_Desc",
+    "anim": "H_CW_caocao",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": [
+      "Skill_1"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "22_Name",
+    "desc": "22_Desc",
+    "anim": "H_CW_guojia",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 3,
+    "HeroStar": 3,
+    "Skills": [
+      "Skill_19"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "23_Name",
+    "desc": "23_Desc",
+    "anim": "H_SW_lusu",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_18"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "24_Name",
+    "desc": "24_Desc",
+    "anim": "H_QX_huatuo",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_30"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "25_Name",
+    "desc": "25_Desc",
+    "anim": "H_QX_diaochan",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_17"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "26_Name",
+    "desc": "26_Desc",
+    "anim": "H_SH_liubei",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_16"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "27_Name",
+    "desc": "27_Desc",
+    "anim": "H_SH_madai",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_15"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "28_Name",
+    "desc": "28_Desc",
+    "anim": "H_CW_zhanghe",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_29"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "29_Name",
+    "desc": "29_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_13",
+      "Skill_14"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "30_Name",
+    "desc": "30_Desc",
+    "anim": "H_SW_huanggai",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 2,
+    "HeroStar": 2,
+    "Skills": [
+      "Skill_12"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "31_Name",
+    "desc": "31_Desc",
+    "anim": "H_SW_sunquan",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 1,
+    "HeroStar": 1,
+    "Skills": [
+      "Skill_11"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "32_Name",
+    "desc": "32_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "蜀",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 1,
+    "HeroStar": 1,
+    "Skills": [
+      "Skill_10"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "33_Name",
+    "desc": "33_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 1,
+    "HeroStar": 1,
+    "Skills": [
+      "Skill_7"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "34_Name",
+    "desc": "34_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "群",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 1,
+    "HeroStar": 1,
+    "Skills": [
+      "Skill_6"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "35_Name",
+    "desc": "35_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "魏",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 1,
+    "HeroStar": 1,
+    "Skills": [
+      "Skill_9"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "36_Name",
+    "desc": "36_Desc",
+    "anim": "H_SW_sunshangxiang",
+    "zhenying": "吴",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 1,
+    "HeroStar": 1,
+    "Skills": [
+      "Skill_8"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "300_Name",
+    "desc": "300_Desc",
+    "anim": "H_SH_guanyu",
+    "zhenying": "",
+    "defaultWeaponID": "Equipment_001",
+    "Price": 0,
+    "HeroStar": 0,
+    "Skills": [
+      "Skill_9"
+    ]
+  }
+]

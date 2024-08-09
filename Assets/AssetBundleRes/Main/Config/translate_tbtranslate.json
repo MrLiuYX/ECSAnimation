@@ -1,0 +1,42 @@
+[
+  {
+    "id": "HellDoorMainUIForm_Title",
+    "Zh_CN": "地狱之门",
+    "En_EU": "Hell Door"
+  },
+  {
+    "id": "HellDoorMainUIForm_EnterGame",
+    "Zh_CN": "进入游戏",
+    "En_EU": "Start Game"
+  },
+  {
+    "id": "Entity_Desc_101",
+    "Zh_CN": "地狱之门",
+    "En_EU": "怪物会进入地狱之门"
+  },
+  {
+    "id": "Entity_Desc_1001",
+    "Zh_CN": "野蛮人恶灵",
+    "En_EU": "来自蛮族的恶魔，生前是一名勇猛的战士，但是烧杀掳掠进入了地狱"
+  },
+  {
+    "id": "Entity_Desc_2001",
+    "Zh_CN": "骑士",
+    "En_EU": "忠心于地狱之主，前来辅助恶魔进入地狱之门"
+  },
+  {
+    "id": "Entity_Name_101",
+    "Zh_CN": "地狱之门",
+    "En_EU": "Hell of Door"
+  },
+  {
+    "id": "Entity_Name_1001",
+    "Zh_CN": "野蛮人恶灵",
+    "En_EU": "Barbarian evil spirits"
+  },
+  {
+    "id": "Entity_Name_2001",
+    "Zh_CN": "骑士",
+    "En_EU": "Knight"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "BS_Level_01",
+    "Name": "BS_Level_01_Name",
+    "ShopLevel": 1,
+    "UpExp": 10,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_01",
+    "ShopVacancyNum": 3
+  },
+  {
+    "id": "BS_Level_02",
+    "Name": "BS_Level_02_Name",
+    "ShopLevel": 2,
+    "UpExp": 20,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_02",
+    "ShopVacancyNum": 3
+  },
+  {
+    "id": "BS_Level_03",
+    "Name": "BS_Level_03_Name",
+    "ShopLevel": 3,
+    "UpExp": 30,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_03",
+    "ShopVacancyNum": 3
+  },
+  {
+    "id": "BS_Level_04",
+    "Name": "BS_Level_04_Name",
+    "ShopLevel": 4,
+    "UpExp": 40,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_04",
+    "ShopVacancyNum": 4
+  },
+  {
+    "id": "BS_Level_05",
+    "Name": "BS_Level_05_Name",
+    "ShopLevel": 5,
+    "UpExp": 50,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_05",
+    "ShopVacancyNum": 4
+  },
+  {
+    "id": "BS_Level_06",
+    "Name": "BS_Level_06_Name",
+    "ShopLevel": 6,
+    "UpExp": 60,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_06",
+    "ShopVacancyNum": 5
+  },
+  {
+    "id": "BS_Level_07",
+    "Name": "BS_Level_07_Name",
+    "ShopLevel": 7,
+    "UpExp": 70,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_07",
+    "ShopVacancyNum": 5
+  },
+  {
+    "id": "BS_Level_08",
+    "Name": "BS_Level_08_Name",
+    "ShopLevel": 8,
+    "UpExp": 80,
+    "NeedGold": 0,
+    "NeedExp": 0,
+    "RefreshGold": 2,
+    "ShopItems": "BS_Items_08",
+    "ShopVacancyNum": 5
+  }
+]

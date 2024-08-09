@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d409229dd0174e84da6bbb93c968e888
+timeCreated: 1550749002
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Animations/DieRecover_SwordShield.anim
+  uploadId: 295833

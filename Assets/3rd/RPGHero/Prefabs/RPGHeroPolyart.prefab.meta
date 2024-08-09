@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c647a6e9ba715004ebbf4dc6d7bd1e7a
+timeCreated: 1550751517
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Prefabs/RPGHeroPolyart.prefab
+  uploadId: 295833

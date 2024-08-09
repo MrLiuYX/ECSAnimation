@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8360239987050043336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3057487161094126942}
+  - component: {fileID: 8522819494618379835}
+  m_Layer: 0
+  m_Name: ECS_Ch46_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3057487161094126942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360239987050043336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8522819494618379835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360239987050043336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16bb5e97147a1ae4c83e69ed82d004c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationConfigs:
+  - AnimationId: 1
+    AnimationLoop: 1
+    StartLine: 0
+    EndLine: 1544
+    TotalSec: 15.433334
+  eventConfigs: []
+  Config:
+    Width: 290
+    Height: 1544
+  MeshPath: Assets\AssetBundleRes\Main\Prefabs\ECSRendererData\ECS_Ch46\ECS_Ch46_mesh.mesh
+  MatPath: Assets\AssetBundleRes\Main\Prefabs\ECSRendererData\ECS_Ch46\ECS_Ch46_mat.mat

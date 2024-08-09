@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c4f95ca2d345314aa26717c748c13ee
+timeCreated: 1529752705
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Animations/NormalAttack02_SwordShield.anim
+  uploadId: 295833

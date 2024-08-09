@@ -1,0 +1,9 @@
+# ninja log v5
+16	1066	7405541598013062	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fb10e47e0b1f51a6
+92	1146	7405541598962793	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	49b860028ba372b9
+70	1150	7405541599022859	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	43373532feb60aac
+1	1253	7405541599863181	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	51027646c60e118c
+122	1282	7405541600136236	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e8c7c7ddb079748b
+49	1423	7405541601618688	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	9bb524c8370fc3f6
+32	1482	7405541602345373	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	8125be1830d96cf3
+1482	1758	7405541603964629	D:/git/zhuanzhuan/transferring-used-cars/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/165i6u41/obj/armeabi-v7a/libgame.so	5ad04203cfb9b599

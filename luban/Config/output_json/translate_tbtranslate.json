@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "BS_Level_01_Name",
+    "Zh_CN": "1级",
+    "En_EU": "Level 1"
+  },
+  {
+    "id": "BS_Level_02_Name",
+    "Zh_CN": "2级",
+    "En_EU": "Level 2"
+  },
+  {
+    "id": "BS_Level_03_Name",
+    "Zh_CN": "3级",
+    "En_EU": "Level 3"
+  },
+  {
+    "id": "BS_Level_04_Name",
+    "Zh_CN": "4级",
+    "En_EU": "Level 4"
+  },
+  {
+    "id": "BS_Level_05_Name",
+    "Zh_CN": "5级",
+    "En_EU": "Level 5"
+  },
+  {
+    "id": "BS_Level_06_Name",
+    "Zh_CN": "6级",
+    "En_EU": "Level 6"
+  },
+  {
+    "id": "BS_Level_07_Name",
+    "Zh_CN": "7级",
+    "En_EU": "Level 7"
+  },
+  {
+    "id": "BS_Level_08_Name",
+    "Zh_CN": "8级",
+    "En_EU": "Level 8"
+  },
+  {
+    "id": "M001_Name",
+    "Zh_CN": "难度Ⅰ",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B01_Name",
+    "Zh_CN": "第1波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B02_Name",
+    "Zh_CN": "第2波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B03_Name",
+    "Zh_CN": "第3波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B04_Name",
+    "Zh_CN": "第4波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B05_Name",
+    "Zh_CN": "第5波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B06_Name",
+    "Zh_CN": "第6波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B07_Name",
+    "Zh_CN": "第7波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B08_Name",
+    "Zh_CN": "第8波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B09_Name",
+    "Zh_CN": "第9波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B10_Name",
+    "Zh_CN": "第10波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B11_Name",
+    "Zh_CN": "第11波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B12_Name",
+    "Zh_CN": "第12波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B13_Name",
+    "Zh_CN": "第13波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B14_Name",
+    "Zh_CN": "第14波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B15_Name",
+    "Zh_CN": "第15波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B16_Name",
+    "Zh_CN": "第16波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B17_Name",
+    "Zh_CN": "第17波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B18_Name",
+    "Zh_CN": "第18波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B19_Name",
+    "Zh_CN": "第19波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B20_Name",
+    "Zh_CN": "第20波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B21_Name",
+    "Zh_CN": "第21波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B22_Name",
+    "Zh_CN": "第22波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B23_Name",
+    "Zh_CN": "第23波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B24_Name",
+    "Zh_CN": "第24波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B25_Name",
+    "Zh_CN": "第25波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B26_Name",
+    "Zh_CN": "第26波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B27_Name",
+    "Zh_CN": "第27波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B28_Name",
+    "Zh_CN": "第28波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B29_Name",
+    "Zh_CN": "第29波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B30_Name",
+    "Zh_CN": "第30波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B31_Name",
+    "Zh_CN": "第31波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B32_Name",
+    "Zh_CN": "第32波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B33_Name",
+    "Zh_CN": "第33波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B34_Name",
+    "Zh_CN": "第34波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B35_Name",
+    "Zh_CN": "第35波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B36_Name",
+    "Zh_CN": "第36波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B37_Name",
+    "Zh_CN": "第37波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B38_Name",
+    "Zh_CN": "第38波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B39_Name",
+    "Zh_CN": "第39波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B40_Name",
+    "Zh_CN": "第40波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B41_Name",
+    "Zh_CN": "第41波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B42_Name",
+    "Zh_CN": "第42波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B43_Name",
+    "Zh_CN": "第43波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B44_Name",
+    "Zh_CN": "第44波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B45_Name",
+    "Zh_CN": "第45波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B46_Name",
+    "Zh_CN": "第46波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B47_Name",
+    "Zh_CN": "第47波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B48_Name",
+    "Zh_CN": "第48波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B49_Name",
+    "Zh_CN": "第49波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B50_Name",
+    "Zh_CN": "第50波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B51_Name",
+    "Zh_CN": "第51波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B52_Name",
+    "Zh_CN": "第52波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B53_Name",
+    "Zh_CN": "第53波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B54_Name",
+    "Zh_CN": "第54波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B55_Name",
+    "Zh_CN": "第55波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B56_Name",
+    "Zh_CN": "第56波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B57_Name",
+    "Zh_CN": "第57波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B58_Name",
+    "Zh_CN": "第58波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B59_Name",
+    "Zh_CN": "第59波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B60_Name",
+    "Zh_CN": "第60波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B61_Name",
+    "Zh_CN": "第61波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B62_Name",
+    "Zh_CN": "第62波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B63_Name",
+    "Zh_CN": "第63波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B64_Name",
+    "Zh_CN": "第64波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B65_Name",
+    "Zh_CN": "第65波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B66_Name",
+    "Zh_CN": "第66波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B67_Name",
+    "Zh_CN": "第67波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B68_Name",
+    "Zh_CN": "第68波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B69_Name",
+    "Zh_CN": "第69波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B70_Name",
+    "Zh_CN": "第70波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B71_Name",
+    "Zh_CN": "第71波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B72_Name",
+    "Zh_CN": "第72波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B73_Name",
+    "Zh_CN": "第73波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B74_Name",
+    "Zh_CN": "第74波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B75_Name",
+    "Zh_CN": "第75波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B76_Name",
+    "Zh_CN": "第76波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B77_Name",
+    "Zh_CN": "第77波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B78_Name",
+    "Zh_CN": "第78波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B79_Name",
+    "Zh_CN": "第79波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B80_Name",
+    "Zh_CN": "第80波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B81_Name",
+    "Zh_CN": "第81波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B82_Name",
+    "Zh_CN": "第82波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B83_Name",
+    "Zh_CN": "第83波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B84_Name",
+    "Zh_CN": "第84波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B85_Name",
+    "Zh_CN": "第85波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B86_Name",
+    "Zh_CN": "第86波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B87_Name",
+    "Zh_CN": "第87波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B88_Name",
+    "Zh_CN": "第88波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B89_Name",
+    "Zh_CN": "第89波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B90_Name",
+    "Zh_CN": "第90波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B91_Name",
+    "Zh_CN": "第91波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B92_Name",
+    "Zh_CN": "第92波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B93_Name",
+    "Zh_CN": "第93波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B94_Name",
+    "Zh_CN": "第94波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B95_Name",
+    "Zh_CN": "第95波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B96_Name",
+    "Zh_CN": "第96波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B97_Name",
+    "Zh_CN": "第97波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B98_Name",
+    "Zh_CN": "第98波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B99_Name",
+    "Zh_CN": "第99波",
+    "En_EU": ""
+  },
+  {
+    "id": "M001B100_Name",
+    "Zh_CN": "第100波",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_001_Name",
+    "Zh_CN": "白羽扇",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_002_Name",
+    "Zh_CN": "芭蕉扇",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_003_Name",
+    "Zh_CN": "豆袋",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_004_Name",
+    "Zh_CN": "方天画戟",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_005_Name",
+    "Zh_CN": "古锭刀",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_006_Name",
+    "Zh_CN": "李广之弓",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_007_Name",
+    "Zh_CN": "流星锤",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_008_Name",
+    "Zh_CN": "青釭剑",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_009_Name",
+    "Zh_CN": "青龙偃月刀",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_010_Name",
+    "Zh_CN": "蛇矛",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_001_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_002_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_003_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_004_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_005_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_006_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_007_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_008_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_009_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "Equipment_010_Desc",
+    "Zh_CN": "一件神奇的武器",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_01_Name",
+    "Zh_CN": "攻击力",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_02_Name",
+    "Zh_CN": "生命值",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_03_Name",
+    "Zh_CN": "移动速度",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_04_Name",
+    "Zh_CN": "护甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_05_Name",
+    "Zh_CN": "魔抗",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_06_Name",
+    "Zh_CN": "固定破甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_07_Name",
+    "Zh_CN": "破甲效率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_08_Name",
+    "Zh_CN": "暴击几率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_1_09_Name",
+    "Zh_CN": "暴击伤害",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_01_Name",
+    "Zh_CN": "攻击力",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_02_Name",
+    "Zh_CN": "生命值",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_03_Name",
+    "Zh_CN": "移动速度",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_04_Name",
+    "Zh_CN": "护甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_05_Name",
+    "Zh_CN": "魔抗",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_06_Name",
+    "Zh_CN": "固定破甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_07_Name",
+    "Zh_CN": "破甲效率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_08_Name",
+    "Zh_CN": "暴击几率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_2_09_Name",
+    "Zh_CN": "暴击伤害",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_01_Name",
+    "Zh_CN": "攻击力",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_02_Name",
+    "Zh_CN": "生命值",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_03_Name",
+    "Zh_CN": "移动速度",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_04_Name",
+    "Zh_CN": "护甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_05_Name",
+    "Zh_CN": "魔抗",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_06_Name",
+    "Zh_CN": "固定破甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_07_Name",
+    "Zh_CN": "破甲效率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_08_Name",
+    "Zh_CN": "暴击几率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_3_09_Name",
+    "Zh_CN": "暴击伤害",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_01_Name",
+    "Zh_CN": "攻击力",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_02_Name",
+    "Zh_CN": "生命值",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_03_Name",
+    "Zh_CN": "移动速度",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_04_Name",
+    "Zh_CN": "护甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_05_Name",
+    "Zh_CN": "魔抗",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_06_Name",
+    "Zh_CN": "固定破甲",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_07_Name",
+    "Zh_CN": "破甲效率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_08_Name",
+    "Zh_CN": "暴击几率",
+    "En_EU": ""
+  },
+  {
+    "id": "HA_Entry_4_09_Name",
+    "Zh_CN": "暴击伤害",
+    "En_EU": ""
+  },
+  {
+    "id": "1_Name",
+    "Zh_CN": "吕布",
+    "En_EU": ""
+  },
+  {
+    "id": "2_Name",
+    "Zh_CN": "诸葛亮",
+    "En_EU": ""
+  },
+  {
+    "id": "3_Name",
+    "Zh_CN": "关羽",
+    "En_EU": ""
+  },
+  {
+    "id": "4_Name",
+    "Zh_CN": "司马懿",
+    "En_EU": ""
+  },
+  {
+    "id": "5_Name",
+    "Zh_CN": "典韦",
+    "En_EU": ""
+  },
+  {
+    "id": "6_Name",
+    "Zh_CN": "张角",
+    "En_EU": ""
+  },
+  {
+    "id": "7_Name",
+    "Zh_CN": "张飞",
+    "En_EU": ""
+  },
+  {
+    "id": "8_Name",
+    "Zh_CN": "赵云",
+    "En_EU": ""
+  },
+  {
+    "id": "9_Name",
+    "Zh_CN": "左慈",
+    "En_EU": ""
+  },
+  {
+    "id": "10_Name",
+    "Zh_CN": "黄忠",
+    "En_EU": ""
+  },
+  {
+    "id": "11_Name",
+    "Zh_CN": "周瑜",
+    "En_EU": ""
+  },
+  {
+    "id": "12_Name",
+    "Zh_CN": "孙坚",
+    "En_EU": ""
+  },
+  {
+    "id": "13_Name",
+    "Zh_CN": "马超",
+    "En_EU": ""
+  },
+  {
+    "id": "14_Name",
+    "Zh_CN": "许诸",
+    "En_EU": ""
+  },
+  {
+    "id": "15_Name",
+    "Zh_CN": "张辽",
+    "En_EU": ""
+  },
+  {
+    "id": "16_Name",
+    "Zh_CN": "夏侯惇",
+    "En_EU": ""
+  },
+  {
+    "id": "17_Name",
+    "Zh_CN": "太史慈",
+    "En_EU": ""
+  },
+  {
+    "id": "18_Name",
+    "Zh_CN": "董卓",
+    "En_EU": ""
+  },
+  {
+    "id": "19_Name",
+    "Zh_CN": "吕蒙",
+    "En_EU": ""
+  },
+  {
+    "id": "20_Name",
+    "Zh_CN": "贾诩",
+    "En_EU": ""
+  },
+  {
+    "id": "21_Name",
+    "Zh_CN": "曹操",
+    "En_EU": ""
+  },
+  {
+    "id": "22_Name",
+    "Zh_CN": "郭嘉",
+    "En_EU": ""
+  },
+  {
+    "id": "23_Name",
+    "Zh_CN": "鲁肃",
+    "En_EU": ""
+  },
+  {
+    "id": "24_Name",
+    "Zh_CN": "华佗",
+    "En_EU": ""
+  },
+  {
+    "id": "25_Name",
+    "Zh_CN": "貂蝉",
+    "En_EU": ""
+  },
+  {
+    "id": "26_Name",
+    "Zh_CN": "刘备",
+    "En_EU": ""
+  },
+  {
+    "id": "27_Name",
+    "Zh_CN": "马岱",
+    "En_EU": ""
+  },
+  {
+    "id": "28_Name",
+    "Zh_CN": "张郃",
+    "En_EU": ""
+  },
+  {
+    "id": "29_Name",
+    "Zh_CN": "魏延",
+    "En_EU": ""
+  },
+  {
+    "id": "30_Name",
+    "Zh_CN": "黄盖",
+    "En_EU": ""
+  },
+  {
+    "id": "31_Name",
+    "Zh_CN": "孙权",
+    "En_EU": ""
+  },
+  {
+    "id": "32_Name",
+    "Zh_CN": "阿斗",
+    "En_EU": ""
+  },
+  {
+    "id": "33_Name",
+    "Zh_CN": "颜良",
+    "En_EU": ""
+  },
+  {
+    "id": "34_Name",
+    "Zh_CN": "文丑",
+    "En_EU": ""
+  },
+  {
+    "id": "35_Name",
+    "Zh_CN": "曹休",
+    "En_EU": ""
+  },
+  {
+    "id": "36_Name",
+    "Zh_CN": "孙尚香",
+    "En_EU": ""
+  },
+  {
+    "id": "300_Name",
+    "Zh_CN": "毒蛇",
+    "En_EU": ""
+  },
+  {
+    "id": "1_Desc",
+    "Zh_CN": "【撞击】时将30%/50%/120%伤害分裂至全部敌人。\n 【受击】时永久生命/攻击+1%、+2.5%、+5%。",
+    "En_EU": ""
+  },
+  {
+    "id": "2_Desc",
+    "Zh_CN": "商店将出现以下天书，购买后，诸葛亮学习对应天象：\n 庚风 \n 离火 \n 坤山 \n 巽林 \n 每个天象最多可学习3次，每次升级增加1个天象槽位",
+    "En_EU": ""
+  },
+  {
+    "id": "3_Desc",
+    "Zh_CN": "暴击伤害33%概率造成2/3/4倍伤害",
+    "En_EU": ""
+  },
+  {
+    "id": "4_Desc",
+    "Zh_CN": "友方【受击】时，司马懿向随机敌人发射1/3/5颗飞弹，造成等同司马懿【撞击】的伤害30%/60%/150%",
+    "En_EU": ""
+  },
+  {
+    "id": "5_Desc",
+    "Zh_CN": "【撞击】时有10%/15%/25%概率秒杀敌人，对BOSS造成BOSS最大生命值10%的伤害",
+    "En_EU": ""
+  },
+  {
+    "id": "6_Desc",
+    "Zh_CN": "【冻结】【灼烧】【毒】触发时有30%概率触发1/2/3次 \n 【冻结】多次触发时，【冻结】时间延长\n 【灼烧】多次触发时，直接上多层效果\n 【毒】多次触发时，直接上多层效果",
+    "En_EU": ""
+  },
+  {
+    "id": "7_Desc",
+    "Zh_CN": "【受击】时有20%/40%/80%概率降低敌方伤害50%，且击退降低30/50/90%",
+    "En_EU": ""
+  },
+  {
+    "id": "8_Desc",
+    "Zh_CN": "【闪避】+20%/30%/50%，【闪避】触发后下次【撞击】必定暴击",
+    "En_EU": ""
+  },
+  {
+    "id": "9_Desc",
+    "Zh_CN": "【复制】战斗开始时，变为右手的友方。\n 自身多少星，变身时变为多少星\n 继承对方50%/70%/100%属性及装备\n 左慈无法携带装备",
+    "En_EU": ""
+  },
+  {
+    "id": "10_Desc",
+    "Zh_CN": "【撞击】时100%【连击】，当己方触发【连击】时，有30%/60%/80%概率使随机己方获得1次【连击】（无法再次触发）",
+    "En_EU": ""
+  },
+  {
+    "id": "11_Desc",
+    "Zh_CN": "【撞击】时为随机敌人附加3/6/9次【灼烧】",
+    "En_EU": ""
+  },
+  {
+    "id": "12_Desc",
+    "Zh_CN": "己方造成的10%伤害为孙坚治疗，每次治疗不超过孙坚3%/5%/8%最大生命值。",
+    "En_EU": ""
+  },
+  {
+    "id": "13_Desc",
+    "Zh_CN": "将移速转化为攻击力，每次【撞击】有20%/40%/80%概率发动【冲锋】\n【冲锋】移速变为极限，立即【撞击】敌人1次，此次撞击时获得50%伤害减免",
+    "En_EU": ""
+  },
+  {
+    "id": "14_Desc",
+    "Zh_CN": "将每15/10/5护甲转化为【圣盾】，每失去1次【圣盾】，攻击力提升30/50/100%",
+    "En_EU": ""
+  },
+  {
+    "id": "15_Desc",
+    "Zh_CN": "己方【受击】后护甲+5/10/20，自身获得所有护甲效果翻倍",
+    "En_EU": ""
+  },
+  {
+    "id": "16_Desc",
+    "Zh_CN": "【受击】后，反弹50%/100%/200%伤害",
+    "En_EU": ""
+  },
+  {
+    "id": "17_Desc",
+    "Zh_CN": "对不超过自身5%最大生命值的伤害进行减免，降低10%/30%/50%",
+    "En_EU": ""
+  },
+  {
+    "id": "18_Desc",
+    "Zh_CN": "战备结束时，吞噬1/2/4个商店单位，使随机友军获得该单位属性（生命/攻击）",
+    "En_EU": ""
+  },
+  {
+    "id": "19_Desc",
+    "Zh_CN": "【撞击】时，窃取敌人5%/10%/15%攻击与生命，吕蒙死亡后返还对方",
+    "En_EU": ""
+  },
+  {
+    "id": "20_Desc",
+    "Zh_CN": "【撞击】附加【毒】，并立即触发随机1个敌人身上【毒】剩余效果\n并按30%/60%/100%比率传递至随机1个目标。至少传递1层【毒】",
+    "En_EU": ""
+  },
+  {
+    "id": "21_Desc",
+    "Zh_CN": "敌人死亡后有概率获得1/2/4块钱",
+    "En_EU": ""
+  },
+  {
+    "id": "22_Desc",
+    "Zh_CN": "战斗开始时，使左右1个队友【撞击】时，有15%，20%，50%概率【冻结】敌人1秒",
+    "En_EU": ""
+  },
+  {
+    "id": "23_Desc",
+    "Zh_CN": "敌人移速降低10%/20%/30%",
+    "En_EU": ""
+  },
+  {
+    "id": "24_Desc",
+    "Zh_CN": "【移动速度为0】每3秒恢复全体队友80/100/150%华佗攻击力血量",
+    "En_EU": ""
+  },
+  {
+    "id": "25_Desc",
+    "Zh_CN": "【撞击】时目标附加【虚弱】",
+    "En_EU": ""
+  },
+  {
+    "id": "26_Desc",
+    "Zh_CN": "【移动速度为0】将自身攻击/血量分配给左右2边队友。继承比率30%/50%/100%",
+    "En_EU": ""
+  },
+  {
+    "id": "27_Desc",
+    "Zh_CN": "【撞击】时有10%/20%/35%概率触发【连击】",
+    "En_EU": ""
+  },
+  {
+    "id": "28_Desc",
+    "Zh_CN": "【撞击】后，召唤1/2/4个【毒蛇】：攻击附加【毒】，实时享受同等主人伤害加成效果，毒蛇属性为英雄的30%",
+    "En_EU": ""
+  },
+  {
+    "id": "29_Desc",
+    "Zh_CN": "造成或受到伤害时，有20%/40%/80%概率翻倍或减半",
+    "En_EU": ""
+  },
+  {
+    "id": "30_Desc",
+    "Zh_CN": "每损失5%血量，移速/攻击力提升10/15/30%",
+    "En_EU": ""
+  },
+  {
+    "id": "31_Desc",
+    "Zh_CN": "战备开始时，使随机1/2/4个角色获得+20%攻击，+20%生命",
+    "En_EU": ""
+  },
+  {
+    "id": "32_Desc",
+    "Zh_CN": "每回合积累1/2/3费，卖出后返还给玩家",
+    "En_EU": ""
+  },
+  {
+    "id": "33_Desc",
+    "Zh_CN": "【撞击】后，提升自己15/30/50%攻击力",
+    "En_EU": ""
+  },
+  {
+    "id": "34_Desc",
+    "Zh_CN": "【受击】后，随机提升1名队友10/15/30%最大生命值",
+    "En_EU": ""
+  },
+  {
+    "id": "35_Desc",
+    "Zh_CN": "【撞击】时附加1/2/3层【毒】",
+    "En_EU": ""
+  },
+  {
+    "id": "36_Desc",
+    "Zh_CN": "右方1名队友移速+20%/30%/40%",
+    "En_EU": ""
+  },
+  {
+    "id": "300_Desc",
+    "Zh_CN": "毒蛇攻击时附带【毒】",
+    "En_EU": ""
+  },
+  {
+    "id": "10001_Name",
+    "Zh_CN": "步兵",
+    "En_EU": ""
+  },
+  {
+    "id": "10002_Name",
+    "Zh_CN": "弓箭手",
+    "En_EU": ""
+  },
+  {
+    "id": "10003_Name",
+    "Zh_CN": "步兵统领",
+    "En_EU": ""
+  },
+  {
+    "id": "10004_Name",
+    "Zh_CN": "野蛮人",
+    "En_EU": ""
+  },
+  {
+    "id": "10005_Name",
+    "Zh_CN": "BOSS",
+    "En_EU": ""
+  },
+  {
+    "id": "HP",
+    "Zh_CN": "血量",
+    "En_EU": ""
+  },
+  {
+    "id": "HPBBB",
+    "Zh_CN": "血量%",
+    "En_EU": ""
+  },
+  {
+    "id": "Att",
+    "Zh_CN": "攻击",
+    "En_EU": ""
+  },
+  {
+    "id": "AttBBB",
+    "Zh_CN": "攻击%",
+    "En_EU": ""
+  },
+  {
+    "id": "Speed",
+    "Zh_CN": "速度",
+    "En_EU": ""
+  },
+  {
+    "id": "SpeedBBB",
+    "Zh_CN": "速度%",
+    "En_EU": ""
+  },
+  {
+    "id": "Armor",
+    "Zh_CN": "护甲",
+    "En_EU": ""
+  },
+  {
+    "id": "ArmorMagic",
+    "Zh_CN": "魔抗",
+    "En_EU": ""
+  },
+  {
+    "id": "PassAtt",
+    "Zh_CN": "破甲",
+    "En_EU": ""
+  },
+  {
+    "id": "PassAttBBB",
+    "Zh_CN": "破甲%",
+    "En_EU": ""
+  },
+  {
+    "id": "PassMagic",
+    "Zh_CN": "破魔",
+    "En_EU": ""
+  },
+  {
+    "id": "PassMagicBBB",
+    "Zh_CN": "破魔%",
+    "En_EU": ""
+  },
+  {
+    "id": "SkillCD",
+    "Zh_CN": "技能CD",
+    "En_EU": ""
+  },
+  {
+    "id": "Baoji",
+    "Zh_CN": "暴击率",
+    "En_EU": ""
+  },
+  {
+    "id": "BaojiShanghai",
+    "Zh_CN": "爆伤",
+    "En_EU": ""
+  },
+  {
+    "id": "Shanbi",
+    "Zh_CN": "闪避",
+    "En_EU": ""
+  },
+  {
+    "id": "Mingzhong",
+    "Zh_CN": "命中率",
+    "En_EU": ""
+  },
+  {
+    "id": "RemoteAttCD",
+    "Zh_CN": "远程攻击CD",
+    "En_EU": ""
+  },
+  {
+    "id": "Tizhong",
+    "Zh_CN": "重量",
+    "En_EU": ""
+  }
+]

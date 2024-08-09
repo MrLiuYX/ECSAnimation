@@ -1,0 +1,17 @@
+[
+  {
+    "id": "buff_test_01",
+    "Name": "",
+    "Desc": "",
+    "MaxFloors": 1,
+    "Floors": 1,
+    "ReduceTrigger": "",
+    "Result1": [],
+    "Result2": [],
+    "Result3": [],
+    "Tag": "buff",
+    "Icon": "",
+    "SpecialEffects": "",
+    "TriggerSpecialEffects": ""
+  }
+]

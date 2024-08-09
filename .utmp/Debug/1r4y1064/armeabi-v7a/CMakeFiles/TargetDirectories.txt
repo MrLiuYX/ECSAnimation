@@ -1,0 +1,5 @@
+G:/ECS/LCFramework/hell-door/.utmp/Debug/1r4y1064/armeabi-v7a/CMakeFiles/edit_cache.dir
+G:/ECS/LCFramework/hell-door/.utmp/Debug/1r4y1064/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+G:/ECS/LCFramework/hell-door/.utmp/Debug/1r4y1064/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+G:/ECS/LCFramework/hell-door/.utmp/Debug/1r4y1064/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+G:/ECS/LCFramework/hell-door/.utmp/Debug/1r4y1064/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir

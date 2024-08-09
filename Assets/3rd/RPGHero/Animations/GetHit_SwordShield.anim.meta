@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d32045a77b90ed4d818b2bfcfa1476f
+timeCreated: 1529752812
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Animations/GetHit_SwordShield.anim
+  uploadId: 295833

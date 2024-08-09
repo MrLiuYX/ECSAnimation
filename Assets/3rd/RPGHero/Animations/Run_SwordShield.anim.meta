@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 064668a4bebb0894fac8c02c2b2ad018
+timeCreated: 1529752775
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Animations/Run_SwordShield.anim
+  uploadId: 295833

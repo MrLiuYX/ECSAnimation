@@ -1,0 +1,290 @@
+[
+  {
+    "id": "HA_Entry_1_01",
+    "Name": "HA_Entry_1_01_Name",
+    "AttrConfig": "AttBBB",
+    "Quality": 1,
+    "Min": 600,
+    "Max": 1000
+  },
+  {
+    "id": "HA_Entry_1_02",
+    "Name": "HA_Entry_1_02_Name",
+    "AttrConfig": "HPBBB",
+    "Quality": 1,
+    "Min": 600,
+    "Max": 1000
+  },
+  {
+    "id": "HA_Entry_1_03",
+    "Name": "HA_Entry_1_03_Name",
+    "AttrConfig": "SpeedBBB",
+    "Quality": 1,
+    "Min": 600,
+    "Max": 1000
+  },
+  {
+    "id": "HA_Entry_1_04",
+    "Name": "HA_Entry_1_04_Name",
+    "AttrConfig": "Armor",
+    "Quality": 1,
+    "Min": 6,
+    "Max": 10
+  },
+  {
+    "id": "HA_Entry_1_05",
+    "Name": "HA_Entry_1_05_Name",
+    "AttrConfig": "ArmorMagic",
+    "Quality": 1,
+    "Min": 6,
+    "Max": 10
+  },
+  {
+    "id": "HA_Entry_1_06",
+    "Name": "HA_Entry_1_06_Name",
+    "AttrConfig": "PassAtt",
+    "Quality": 1,
+    "Min": 6,
+    "Max": 10
+  },
+  {
+    "id": "HA_Entry_1_07",
+    "Name": "HA_Entry_1_07_Name",
+    "AttrConfig": "PassAttBBB",
+    "Quality": 1,
+    "Min": 800,
+    "Max": 1200
+  },
+  {
+    "id": "HA_Entry_1_08",
+    "Name": "HA_Entry_1_08_Name",
+    "AttrConfig": "Baoji",
+    "Quality": 1,
+    "Min": 400,
+    "Max": 300
+  },
+  {
+    "id": "HA_Entry_1_09",
+    "Name": "HA_Entry_1_09_Name",
+    "AttrConfig": "BaojiShanghai",
+    "Quality": 1,
+    "Min": 200,
+    "Max": 3000
+  },
+  {
+    "id": "HA_Entry_2_01",
+    "Name": "HA_Entry_2_01_Name",
+    "AttrConfig": "AttBBB",
+    "Quality": 2,
+    "Min": 1200,
+    "Max": 2000
+  },
+  {
+    "id": "HA_Entry_2_02",
+    "Name": "HA_Entry_2_02_Name",
+    "AttrConfig": "HPBBB",
+    "Quality": 2,
+    "Min": 1200,
+    "Max": 2000
+  },
+  {
+    "id": "HA_Entry_2_03",
+    "Name": "HA_Entry_2_03_Name",
+    "AttrConfig": "SpeedBBB",
+    "Quality": 2,
+    "Min": 1200,
+    "Max": 2000
+  },
+  {
+    "id": "HA_Entry_2_04",
+    "Name": "HA_Entry_2_04_Name",
+    "AttrConfig": "Armor",
+    "Quality": 2,
+    "Min": 12,
+    "Max": 20
+  },
+  {
+    "id": "HA_Entry_2_05",
+    "Name": "HA_Entry_2_05_Name",
+    "AttrConfig": "ArmorMagic",
+    "Quality": 2,
+    "Min": 12,
+    "Max": 20
+  },
+  {
+    "id": "HA_Entry_2_06",
+    "Name": "HA_Entry_2_06_Name",
+    "AttrConfig": "PassAtt",
+    "Quality": 2,
+    "Min": 12,
+    "Max": 20
+  },
+  {
+    "id": "HA_Entry_2_07",
+    "Name": "HA_Entry_2_07_Name",
+    "AttrConfig": "PassAttBBB",
+    "Quality": 2,
+    "Min": 1600,
+    "Max": 2400
+  },
+  {
+    "id": "HA_Entry_2_08",
+    "Name": "HA_Entry_2_08_Name",
+    "AttrConfig": "Baoji",
+    "Quality": 2,
+    "Min": 800,
+    "Max": 1200
+  },
+  {
+    "id": "HA_Entry_2_09",
+    "Name": "HA_Entry_2_09_Name",
+    "AttrConfig": "BaojiShanghai",
+    "Quality": 2,
+    "Min": 4000,
+    "Max": 6000
+  },
+  {
+    "id": "HA_Entry_3_01",
+    "Name": "HA_Entry_3_01_Name",
+    "AttrConfig": "AttBBB",
+    "Quality": 3,
+    "Min": 2400,
+    "Max": 4000
+  },
+  {
+    "id": "HA_Entry_3_02",
+    "Name": "HA_Entry_3_02_Name",
+    "AttrConfig": "HPBBB",
+    "Quality": 3,
+    "Min": 2400,
+    "Max": 4000
+  },
+  {
+    "id": "HA_Entry_3_03",
+    "Name": "HA_Entry_3_03_Name",
+    "AttrConfig": "SpeedBBB",
+    "Quality": 3,
+    "Min": 2400,
+    "Max": 4000
+  },
+  {
+    "id": "HA_Entry_3_04",
+    "Name": "HA_Entry_3_04_Name",
+    "AttrConfig": "Armor",
+    "Quality": 3,
+    "Min": 24,
+    "Max": 40
+  },
+  {
+    "id": "HA_Entry_3_05",
+    "Name": "HA_Entry_3_05_Name",
+    "AttrConfig": "ArmorMagic",
+    "Quality": 3,
+    "Min": 24,
+    "Max": 40
+  },
+  {
+    "id": "HA_Entry_3_06",
+    "Name": "HA_Entry_3_06_Name",
+    "AttrConfig": "PassAtt",
+    "Quality": 3,
+    "Min": 24,
+    "Max": 40
+  },
+  {
+    "id": "HA_Entry_3_07",
+    "Name": "HA_Entry_3_07_Name",
+    "AttrConfig": "PassAttBBB",
+    "Quality": 3,
+    "Min": 3200,
+    "Max": 4800
+  },
+  {
+    "id": "HA_Entry_3_08",
+    "Name": "HA_Entry_3_08_Name",
+    "AttrConfig": "Baoji",
+    "Quality": 3,
+    "Min": 1600,
+    "Max": 2400
+  },
+  {
+    "id": "HA_Entry_3_09",
+    "Name": "HA_Entry_3_09_Name",
+    "AttrConfig": "BaojiShanghai",
+    "Quality": 3,
+    "Min": 8000,
+    "Max": 12000
+  },
+  {
+    "id": "HA_Entry_4_01",
+    "Name": "HA_Entry_4_01_Name",
+    "AttrConfig": "AttBBB",
+    "Quality": 4,
+    "Min": 3600,
+    "Max": 6000
+  },
+  {
+    "id": "HA_Entry_4_02",
+    "Name": "HA_Entry_4_02_Name",
+    "AttrConfig": "HPBBB",
+    "Quality": 4,
+    "Min": 3600,
+    "Max": 6000
+  },
+  {
+    "id": "HA_Entry_4_03",
+    "Name": "HA_Entry_4_03_Name",
+    "AttrConfig": "SpeedBBB",
+    "Quality": 4,
+    "Min": 3600,
+    "Max": 6000
+  },
+  {
+    "id": "HA_Entry_4_04",
+    "Name": "HA_Entry_4_04_Name",
+    "AttrConfig": "Armor",
+    "Quality": 4,
+    "Min": 36,
+    "Max": 60
+  },
+  {
+    "id": "HA_Entry_4_05",
+    "Name": "HA_Entry_4_05_Name",
+    "AttrConfig": "ArmorMagic",
+    "Quality": 4,
+    "Min": 36,
+    "Max": 60
+  },
+  {
+    "id": "HA_Entry_4_06",
+    "Name": "HA_Entry_4_06_Name",
+    "AttrConfig": "PassAtt",
+    "Quality": 4,
+    "Min": 36,
+    "Max": 60
+  },
+  {
+    "id": "HA_Entry_4_07",
+    "Name": "HA_Entry_4_07_Name",
+    "AttrConfig": "PassAttBBB",
+    "Quality": 4,
+    "Min": 4800,
+    "Max": 7200
+  },
+  {
+    "id": "HA_Entry_4_08",
+    "Name": "HA_Entry_4_08_Name",
+    "AttrConfig": "Baoji",
+    "Quality": 4,
+    "Min": 2400,
+    "Max": 3600
+  },
+  {
+    "id": "HA_Entry_4_09",
+    "Name": "HA_Entry_4_09_Name",
+    "AttrConfig": "BaojiShanghai",
+    "Quality": 4,
+    "Min": 12000,
+    "Max": 18000
+  }
+]

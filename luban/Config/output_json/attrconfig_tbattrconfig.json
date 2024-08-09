@@ -1,0 +1,116 @@
+[
+  {
+    "id": "AttrConfig_001",
+    "name": "HP",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_002",
+    "name": "HPBBB",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_003",
+    "name": "Att",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_004",
+    "name": "AttBBB",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_005",
+    "name": "Speed",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_006",
+    "name": "SpeedBBB",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_007",
+    "name": "Armor",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_008",
+    "name": "ArmorMagic",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_009",
+    "name": "PassAtt",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_010",
+    "name": "PassAttBBB",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_011",
+    "name": "PassMagic",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_012",
+    "name": "PassMagicBBB",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_013",
+    "name": "SkillCD",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_014",
+    "name": "Baoji",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_015",
+    "name": "BaojiShanghai",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_016",
+    "name": "Shanbi",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_017",
+    "name": "Mingzhong",
+    "isBBB": 1,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_018",
+    "name": "RemoteAttCD",
+    "isBBB": 0,
+    "max": 200000000
+  },
+  {
+    "id": "AttrConfig_019",
+    "name": "Tizhong",
+    "isBBB": 0,
+    "max": 200000000
+  }
+]

@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "M001B01",
+    "Name": "M001B01_Name",
+    "MonsterTeam": [
+      "Team_0001",
+      "Team_0002",
+      "Team_0003"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1,
+    "CoefficientHP": 1
+  },
+  {
+    "id": "M001B02",
+    "Name": "M001B02_Name",
+    "MonsterTeam": [
+      "Team_0004",
+      "Team_0005",
+      "Team_0006"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1.2,
+    "CoefficientHP": 1.2
+  },
+  {
+    "id": "M001B03",
+    "Name": "M001B03_Name",
+    "MonsterTeam": [
+      "Team_0007",
+      "Team_0008",
+      "Team_0009"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 2,
+    "CoefficientHP": 2
+  },
+  {
+    "id": "M001B04",
+    "Name": "M001B04_Name",
+    "MonsterTeam": [
+      "Team_0010",
+      "Team_0011",
+      "Team_0012"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 1.8,
+    "CoefficientHP": 1.8
+  },
+  {
+    "id": "M001B05",
+    "Name": "M001B05_Name",
+    "MonsterTeam": [
+      "Team_0013",
+      "Team_0014",
+      "Team_0015"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1.7,
+    "CoefficientHP": 1.7
+  },
+  {
+    "id": "M001B06",
+    "Name": "M001B06_Name",
+    "MonsterTeam": [
+      "Team_0016",
+      "Team_0017",
+      "Team_0018"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1.6,
+    "CoefficientHP": 1.6
+  },
+  {
+    "id": "M001B07",
+    "Name": "M001B07_Name",
+    "MonsterTeam": [
+      "Team_0019",
+      "Team_0020",
+      "Team_0021"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1.3,
+    "CoefficientHP": 1.3
+  },
+  {
+    "id": "M001B08",
+    "Name": "M001B08_Name",
+    "MonsterTeam": [
+      "Team_0022",
+      "Team_0023",
+      "Team_0024"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 2.2,
+    "CoefficientHP": 2.2
+  },
+  {
+    "id": "M001B09",
+    "Name": "M001B09_Name",
+    "MonsterTeam": [
+      "Team_0025",
+      "Team_0026",
+      "Team_0027"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 4.5,
+    "CoefficientHP": 4.5
+  },
+  {
+    "id": "M001B10",
+    "Name": "M001B10_Name",
+    "MonsterTeam": [
+      "Team_0028",
+      "Team_0029",
+      "Team_0030"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 5.8,
+    "CoefficientHP": 5.8
+  },
+  {
+    "id": "M001B11",
+    "Name": "M001B11_Name",
+    "MonsterTeam": [
+      "Team_0031",
+      "Team_0032",
+      "Team_0033"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 3.4,
+    "CoefficientHP": 3.4
+  },
+  {
+    "id": "M001B12",
+    "Name": "M001B12_Name",
+    "MonsterTeam": [
+      "Team_0034",
+      "Team_0035",
+      "Team_0036"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 6.7,
+    "CoefficientHP": 6.7
+  },
+  {
+    "id": "M001B13",
+    "Name": "M001B13_Name",
+    "MonsterTeam": [
+      "Team_0037",
+      "Team_0038",
+      "Team_0039"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 3,
+    "CoefficientHP": 3
+  },
+  {
+    "id": "M001B14",
+    "Name": "M001B14_Name",
+    "MonsterTeam": [
+      "Team_0040",
+      "Team_0041",
+      "Team_0042"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 3.8,
+    "CoefficientHP": 3.8
+  },
+  {
+    "id": "M001B15",
+    "Name": "M001B15_Name",
+    "MonsterTeam": [
+      "Team_0043",
+      "Team_0044",
+      "Team_0045"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 3.8,
+    "CoefficientHP": 3.8
+  },
+  {
+    "id": "M001B16",
+    "Name": "M001B16_Name",
+    "MonsterTeam": [
+      "Team_0046",
+      "Team_0047",
+      "Team_0048"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 5.5,
+    "CoefficientHP": 5.5
+  },
+  {
+    "id": "M001B17",
+    "Name": "M001B17_Name",
+    "MonsterTeam": [
+      "Team_0049",
+      "Team_0050",
+      "Team_0051"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 7.7,
+    "CoefficientHP": 7.7
+  },
+  {
+    "id": "M001B18",
+    "Name": "M001B18_Name",
+    "MonsterTeam": [
+      "Team_0052",
+      "Team_0053",
+      "Team_0054"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 3.7,
+    "CoefficientHP": 3.7
+  },
+  {
+    "id": "M001B19",
+    "Name": "M001B19_Name",
+    "MonsterTeam": [
+      "Team_0055",
+      "Team_0056",
+      "Team_0057"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 7.5,
+    "CoefficientHP": 7.5
+  },
+  {
+    "id": "M001B20",
+    "Name": "M001B20_Name",
+    "MonsterTeam": [
+      "Team_0058",
+      "Team_0059",
+      "Team_0060"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 3.1,
+    "CoefficientHP": 3.1
+  },
+  {
+    "id": "M001B21",
+    "Name": "M001B21_Name",
+    "MonsterTeam": [
+      "Team_0061",
+      "Team_0062",
+      "Team_0063"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 6.1,
+    "CoefficientHP": 6.1
+  },
+  {
+    "id": "M001B22",
+    "Name": "M001B22_Name",
+    "MonsterTeam": [
+      "Team_0064",
+      "Team_0065",
+      "Team_0066"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 4.6,
+    "CoefficientHP": 4.6
+  },
+  {
+    "id": "M001B23",
+    "Name": "M001B23_Name",
+    "MonsterTeam": [
+      "Team_0067",
+      "Team_0068",
+      "Team_0069"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 6.4,
+    "CoefficientHP": 6.4
+  },
+  {
+    "id": "M001B24",
+    "Name": "M001B24_Name",
+    "MonsterTeam": [
+      "Team_0070",
+      "Team_0071",
+      "Team_0072"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 6,
+    "CoefficientHP": 6
+  },
+  {
+    "id": "M001B25",
+    "Name": "M001B25_Name",
+    "MonsterTeam": [
+      "Team_0073",
+      "Team_0074",
+      "Team_0075"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 10.3,
+    "CoefficientHP": 10.3
+  },
+  {
+    "id": "M001B26",
+    "Name": "M001B26_Name",
+    "MonsterTeam": [
+      "Team_0076",
+      "Team_0077",
+      "Team_0078"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 6.6,
+    "CoefficientHP": 6.6
+  },
+  {
+    "id": "M001B27",
+    "Name": "M001B27_Name",
+    "MonsterTeam": [
+      "Team_0079",
+      "Team_0080",
+      "Team_0081"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 7.4,
+    "CoefficientHP": 7.4
+  },
+  {
+    "id": "M001B28",
+    "Name": "M001B28_Name",
+    "MonsterTeam": [
+      "Team_0082",
+      "Team_0083",
+      "Team_0084"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 13.6,
+    "CoefficientHP": 13.6
+  },
+  {
+    "id": "M001B29",
+    "Name": "M001B29_Name",
+    "MonsterTeam": [
+      "Team_0085",
+      "Team_0086",
+      "Team_0087"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 11.1,
+    "CoefficientHP": 11.1
+  },
+  {
+    "id": "M001B30",
+    "Name": "M001B30_Name",
+    "MonsterTeam": [
+      "Team_0088",
+      "Team_0089",
+      "Team_0090"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 21.2,
+    "CoefficientHP": 21.2
+  },
+  {
+    "id": "M001B31",
+    "Name": "M001B31_Name",
+    "MonsterTeam": [
+      "Team_0091",
+      "Team_0092",
+      "Team_0093"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 38.2,
+    "CoefficientHP": 38.2
+  },
+  {
+    "id": "M001B32",
+    "Name": "M001B32_Name",
+    "MonsterTeam": [
+      "Team_0094",
+      "Team_0095",
+      "Team_0096"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 42,
+    "CoefficientHP": 42
+  },
+  {
+    "id": "M001B33",
+    "Name": "M001B33_Name",
+    "MonsterTeam": [
+      "Team_0097",
+      "Team_0098",
+      "Team_0099"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 45.9,
+    "CoefficientHP": 45.9
+  },
+  {
+    "id": "M001B34",
+    "Name": "M001B34_Name",
+    "MonsterTeam": [
+      "Team_0100",
+      "Team_0101",
+      "Team_0102"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 49.7,
+    "CoefficientHP": 49.7
+  },
+  {
+    "id": "M001B35",
+    "Name": "M001B35_Name",
+    "MonsterTeam": [
+      "Team_0103",
+      "Team_0104",
+      "Team_0105"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 53.5,
+    "CoefficientHP": 53.5
+  },
+  {
+    "id": "M001B36",
+    "Name": "M001B36_Name",
+    "MonsterTeam": [
+      "Team_0106",
+      "Team_0107",
+      "Team_0108"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 57.3,
+    "CoefficientHP": 57.3
+  },
+  {
+    "id": "M001B37",
+    "Name": "M001B37_Name",
+    "MonsterTeam": [
+      "Team_0109",
+      "Team_0110",
+      "Team_0111"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 61.2,
+    "CoefficientHP": 61.2
+  },
+  {
+    "id": "M001B38",
+    "Name": "M001B38_Name",
+    "MonsterTeam": [
+      "Team_0112",
+      "Team_0113",
+      "Team_0114"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 65,
+    "CoefficientHP": 65
+  },
+  {
+    "id": "M001B39",
+    "Name": "M001B39_Name",
+    "MonsterTeam": [
+      "Team_0115",
+      "Team_0116",
+      "Team_0117"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 68.8,
+    "CoefficientHP": 68.8
+  },
+  {
+    "id": "M001B40",
+    "Name": "M001B40_Name",
+    "MonsterTeam": [
+      "Team_0118",
+      "Team_0119",
+      "Team_0120"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 72.6,
+    "CoefficientHP": 72.6
+  },
+  {
+    "id": "M001B41",
+    "Name": "M001B41_Name",
+    "MonsterTeam": [
+      "Team_0121",
+      "Team_0122",
+      "Team_0123"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 76.5,
+    "CoefficientHP": 76.5
+  },
+  {
+    "id": "M001B42",
+    "Name": "M001B42_Name",
+    "MonsterTeam": [
+      "Team_0124",
+      "Team_0125",
+      "Team_0126"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 80.3,
+    "CoefficientHP": 80.3
+  },
+  {
+    "id": "M001B43",
+    "Name": "M001B43_Name",
+    "MonsterTeam": [
+      "Team_0127",
+      "Team_0128",
+      "Team_0129"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 84.1,
+    "CoefficientHP": 84.1
+  },
+  {
+    "id": "M001B44",
+    "Name": "M001B44_Name",
+    "MonsterTeam": [
+      "Team_0130",
+      "Team_0131",
+      "Team_0132"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 87.9,
+    "CoefficientHP": 87.9
+  },
+  {
+    "id": "M001B45",
+    "Name": "M001B45_Name",
+    "MonsterTeam": [
+      "Team_0133",
+      "Team_0134",
+      "Team_0135"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 91.7,
+    "CoefficientHP": 91.7
+  },
+  {
+    "id": "M001B46",
+    "Name": "M001B46_Name",
+    "MonsterTeam": [
+      "Team_0136",
+      "Team_0137",
+      "Team_0138"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 95.6,
+    "CoefficientHP": 95.6
+  },
+  {
+    "id": "M001B47",
+    "Name": "M001B47_Name",
+    "MonsterTeam": [
+      "Team_0139",
+      "Team_0140",
+      "Team_0141"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 99.4,
+    "CoefficientHP": 99.4
+  },
+  {
+    "id": "M001B48",
+    "Name": "M001B48_Name",
+    "MonsterTeam": [
+      "Team_0142",
+      "Team_0143",
+      "Team_0144"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 103.2,
+    "CoefficientHP": 103.2
+  },
+  {
+    "id": "M001B49",
+    "Name": "M001B49_Name",
+    "MonsterTeam": [
+      "Team_0145",
+      "Team_0146",
+      "Team_0147"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 107,
+    "CoefficientHP": 107
+  },
+  {
+    "id": "M001B50",
+    "Name": "M001B50_Name",
+    "MonsterTeam": [
+      "Team_0148",
+      "Team_0149",
+      "Team_0150"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 110.9,
+    "CoefficientHP": 110.9
+  },
+  {
+    "id": "M001B51",
+    "Name": "M001B51_Name",
+    "MonsterTeam": [
+      "Team_0151",
+      "Team_0152",
+      "Team_0153"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 126.1,
+    "CoefficientHP": 126.1
+  },
+  {
+    "id": "M001B52",
+    "Name": "M001B52_Name",
+    "MonsterTeam": [
+      "Team_0154",
+      "Team_0155",
+      "Team_0156"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 141.4,
+    "CoefficientHP": 141.4
+  },
+  {
+    "id": "M001B53",
+    "Name": "M001B53_Name",
+    "MonsterTeam": [
+      "Team_0157",
+      "Team_0158",
+      "Team_0159"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 156.7,
+    "CoefficientHP": 156.7
+  },
+  {
+    "id": "M001B54",
+    "Name": "M001B54_Name",
+    "MonsterTeam": [
+      "Team_0160",
+      "Team_0161",
+      "Team_0162"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 172,
+    "CoefficientHP": 172
+  },
+  {
+    "id": "M001B55",
+    "Name": "M001B55_Name",
+    "MonsterTeam": [
+      "Team_0163",
+      "Team_0164",
+      "Team_0165"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 187.3,
+    "CoefficientHP": 187.3
+  },
+  {
+    "id": "M001B56",
+    "Name": "M001B56_Name",
+    "MonsterTeam": [
+      "Team_0166",
+      "Team_0167",
+      "Team_0168"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 202.6,
+    "CoefficientHP": 202.6
+  },
+  {
+    "id": "M001B57",
+    "Name": "M001B57_Name",
+    "MonsterTeam": [
+      "Team_0169",
+      "Team_0170",
+      "Team_0171"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 217.9,
+    "CoefficientHP": 217.9
+  },
+  {
+    "id": "M001B58",
+    "Name": "M001B58_Name",
+    "MonsterTeam": [
+      "Team_0172",
+      "Team_0173",
+      "Team_0174"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 233.2,
+    "CoefficientHP": 233.2
+  },
+  {
+    "id": "M001B59",
+    "Name": "M001B59_Name",
+    "MonsterTeam": [
+      "Team_0175",
+      "Team_0176",
+      "Team_0177"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 248.5,
+    "CoefficientHP": 248.5
+  },
+  {
+    "id": "M001B60",
+    "Name": "M001B60_Name",
+    "MonsterTeam": [
+      "Team_0178",
+      "Team_0179",
+      "Team_0180"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 263.8,
+    "CoefficientHP": 263.8
+  },
+  {
+    "id": "M001B61",
+    "Name": "M001B61_Name",
+    "MonsterTeam": [
+      "Team_0181",
+      "Team_0182",
+      "Team_0183"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 279.1,
+    "CoefficientHP": 279.1
+  },
+  {
+    "id": "M001B62",
+    "Name": "M001B62_Name",
+    "MonsterTeam": [
+      "Team_0184",
+      "Team_0185",
+      "Team_0186"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 294.3,
+    "CoefficientHP": 294.3
+  },
+  {
+    "id": "M001B63",
+    "Name": "M001B63_Name",
+    "MonsterTeam": [
+      "Team_0187",
+      "Team_0188",
+      "Team_0189"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 309.6,
+    "CoefficientHP": 309.6
+  },
+  {
+    "id": "M001B64",
+    "Name": "M001B64_Name",
+    "MonsterTeam": [
+      "Team_0190",
+      "Team_0191",
+      "Team_0192"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 324.9,
+    "CoefficientHP": 324.9
+  },
+  {
+    "id": "M001B65",
+    "Name": "M001B65_Name",
+    "MonsterTeam": [
+      "Team_0193",
+      "Team_0194",
+      "Team_0195"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 340.2,
+    "CoefficientHP": 340.2
+  },
+  {
+    "id": "M001B66",
+    "Name": "M001B66_Name",
+    "MonsterTeam": [
+      "Team_0196",
+      "Team_0197",
+      "Team_0198"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 355.5,
+    "CoefficientHP": 355.5
+  },
+  {
+    "id": "M001B67",
+    "Name": "M001B67_Name",
+    "MonsterTeam": [
+      "Team_0199",
+      "Team_0200",
+      "Team_0201"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 370.8,
+    "CoefficientHP": 370.8
+  },
+  {
+    "id": "M001B68",
+    "Name": "M001B68_Name",
+    "MonsterTeam": [
+      "Team_0202",
+      "Team_0203",
+      "Team_0204"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 386.1,
+    "CoefficientHP": 386.1
+  },
+  {
+    "id": "M001B69",
+    "Name": "M001B69_Name",
+    "MonsterTeam": [
+      "Team_0205",
+      "Team_0206",
+      "Team_0207"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 401.4,
+    "CoefficientHP": 401.4
+  },
+  {
+    "id": "M001B70",
+    "Name": "M001B70_Name",
+    "MonsterTeam": [
+      "Team_0208",
+      "Team_0209",
+      "Team_0210"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 416.7,
+    "CoefficientHP": 416.7
+  },
+  {
+    "id": "M001B71",
+    "Name": "M001B71_Name",
+    "MonsterTeam": [
+      "Team_0211",
+      "Team_0212",
+      "Team_0213"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 443.4,
+    "CoefficientHP": 443.4
+  },
+  {
+    "id": "M001B72",
+    "Name": "M001B72_Name",
+    "MonsterTeam": [
+      "Team_0214",
+      "Team_0215",
+      "Team_0216"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 470.2,
+    "CoefficientHP": 470.2
+  },
+  {
+    "id": "M001B73",
+    "Name": "M001B73_Name",
+    "MonsterTeam": [
+      "Team_0217",
+      "Team_0218",
+      "Team_0219"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 497,
+    "CoefficientHP": 497
+  },
+  {
+    "id": "M001B74",
+    "Name": "M001B74_Name",
+    "MonsterTeam": [
+      "Team_0220",
+      "Team_0221",
+      "Team_0222"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 523.7,
+    "CoefficientHP": 523.7
+  },
+  {
+    "id": "M001B75",
+    "Name": "M001B75_Name",
+    "MonsterTeam": [
+      "Team_0223",
+      "Team_0224",
+      "Team_0225"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 550.5,
+    "CoefficientHP": 550.5
+  },
+  {
+    "id": "M001B76",
+    "Name": "M001B76_Name",
+    "MonsterTeam": [
+      "Team_0226",
+      "Team_0227",
+      "Team_0228"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 577.2,
+    "CoefficientHP": 577.2
+  },
+  {
+    "id": "M001B77",
+    "Name": "M001B77_Name",
+    "MonsterTeam": [
+      "Team_0229",
+      "Team_0230",
+      "Team_0231"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 604,
+    "CoefficientHP": 604
+  },
+  {
+    "id": "M001B78",
+    "Name": "M001B78_Name",
+    "MonsterTeam": [
+      "Team_0232",
+      "Team_0233",
+      "Team_0234"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 630.7,
+    "CoefficientHP": 630.7
+  },
+  {
+    "id": "M001B79",
+    "Name": "M001B79_Name",
+    "MonsterTeam": [
+      "Team_0235",
+      "Team_0236",
+      "Team_0237"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 657.5,
+    "CoefficientHP": 657.5
+  },
+  {
+    "id": "M001B80",
+    "Name": "M001B80_Name",
+    "MonsterTeam": [
+      "Team_0238",
+      "Team_0239",
+      "Team_0240"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 684.3,
+    "CoefficientHP": 684.3
+  },
+  {
+    "id": "M001B81",
+    "Name": "M001B81_Name",
+    "MonsterTeam": [
+      "Team_0241",
+      "Team_0242",
+      "Team_0243"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 711,
+    "CoefficientHP": 711
+  },
+  {
+    "id": "M001B82",
+    "Name": "M001B82_Name",
+    "MonsterTeam": [
+      "Team_0244",
+      "Team_0245",
+      "Team_0246"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 737.8,
+    "CoefficientHP": 737.8
+  },
+  {
+    "id": "M001B83",
+    "Name": "M001B83_Name",
+    "MonsterTeam": [
+      "Team_0247",
+      "Team_0248",
+      "Team_0249"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 764.5,
+    "CoefficientHP": 764.5
+  },
+  {
+    "id": "M001B84",
+    "Name": "M001B84_Name",
+    "MonsterTeam": [
+      "Team_0250",
+      "Team_0251",
+      "Team_0252"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 791.3,
+    "CoefficientHP": 791.3
+  },
+  {
+    "id": "M001B85",
+    "Name": "M001B85_Name",
+    "MonsterTeam": [
+      "Team_0253",
+      "Team_0254",
+      "Team_0255"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 818.1,
+    "CoefficientHP": 818.1
+  },
+  {
+    "id": "M001B86",
+    "Name": "M001B86_Name",
+    "MonsterTeam": [
+      "Team_0256",
+      "Team_0257",
+      "Team_0258"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 844.8,
+    "CoefficientHP": 844.8
+  },
+  {
+    "id": "M001B87",
+    "Name": "M001B87_Name",
+    "MonsterTeam": [
+      "Team_0259",
+      "Team_0260",
+      "Team_0261"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 871.6,
+    "CoefficientHP": 871.6
+  },
+  {
+    "id": "M001B88",
+    "Name": "M001B88_Name",
+    "MonsterTeam": [
+      "Team_0262",
+      "Team_0263",
+      "Team_0264"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 898.3,
+    "CoefficientHP": 898.3
+  },
+  {
+    "id": "M001B89",
+    "Name": "M001B89_Name",
+    "MonsterTeam": [
+      "Team_0265",
+      "Team_0266",
+      "Team_0267"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 925.1,
+    "CoefficientHP": 925.1
+  },
+  {
+    "id": "M001B90",
+    "Name": "M001B90_Name",
+    "MonsterTeam": [
+      "Team_0268",
+      "Team_0269",
+      "Team_0270"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 951.9,
+    "CoefficientHP": 951.9
+  },
+  {
+    "id": "M001B91",
+    "Name": "M001B91_Name",
+    "MonsterTeam": [
+      "Team_0271",
+      "Team_0272",
+      "Team_0273"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 955.7,
+    "CoefficientHP": 955.7
+  },
+  {
+    "id": "M001B92",
+    "Name": "M001B92_Name",
+    "MonsterTeam": [
+      "Team_0274",
+      "Team_0275",
+      "Team_0276"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 993.9,
+    "CoefficientHP": 993.9
+  },
+  {
+    "id": "M001B93",
+    "Name": "M001B93_Name",
+    "MonsterTeam": [
+      "Team_0277",
+      "Team_0278",
+      "Team_0279"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1032.1,
+    "CoefficientHP": 1032.1
+  },
+  {
+    "id": "M001B94",
+    "Name": "M001B94_Name",
+    "MonsterTeam": [
+      "Team_0280",
+      "Team_0281",
+      "Team_0282"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1070.4,
+    "CoefficientHP": 1070.4
+  },
+  {
+    "id": "M001B95",
+    "Name": "M001B95_Name",
+    "MonsterTeam": [
+      "Team_0283",
+      "Team_0284",
+      "Team_0285"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1108.6,
+    "CoefficientHP": 1108.6
+  },
+  {
+    "id": "M001B96",
+    "Name": "M001B96_Name",
+    "MonsterTeam": [
+      "Team_0286",
+      "Team_0287",
+      "Team_0288"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 1146.8,
+    "CoefficientHP": 1146.8
+  },
+  {
+    "id": "M001B97",
+    "Name": "M001B97_Name",
+    "MonsterTeam": [
+      "Team_0289",
+      "Team_0290",
+      "Team_0291"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_002",
+        "Equipment_003",
+        "Equipment_004"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_006"
+      ],
+      [
+        "Equipment_007"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1185,
+    "CoefficientHP": 1185
+  },
+  {
+    "id": "M001B98",
+    "Name": "M001B98_Name",
+    "MonsterTeam": [
+      "Team_0292",
+      "Team_0293",
+      "Team_0294"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_005",
+        "Equipment_006",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_008",
+        "Equipment_009"
+      ],
+      [
+        "Equipment_010"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1223.3,
+    "CoefficientHP": 1223.3
+  },
+  {
+    "id": "M001B99",
+    "Name": "M001B99_Name",
+    "MonsterTeam": [
+      "Team_0295",
+      "Team_0296",
+      "Team_0297"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_003",
+        "Equipment_006",
+        "Equipment_010"
+      ],
+      [
+        "Equipment_005",
+        "Equipment_007"
+      ],
+      [
+        "Equipment_009"
+      ]
+    ],
+    "TriggerPro": 0.1,
+    "CoefficientATK": 1261.5,
+    "CoefficientHP": 1261.5
+  },
+  {
+    "id": "M001B100",
+    "Name": "M001B100_Name",
+    "MonsterTeam": [
+      "Team_0298",
+      "Team_0299",
+      "Team_0300"
+    ],
+    "Weight": [
+      1,
+      2,
+      3
+    ],
+    "DropCoins": [
+      40,
+      30,
+      20
+    ],
+    "SelectEquipment": [
+      [
+        "Equipment_010",
+        "Equipment_009",
+        "Equipment_002"
+      ],
+      [
+        "Equipment_003",
+        "Equipment_005"
+      ],
+      [
+        "Equipment_008"
+      ]
+    ],
+    "TriggerPro": 1,
+    "CoefficientATK": 1299.7,
+    "CoefficientHP": 1299.7
+  }
+]

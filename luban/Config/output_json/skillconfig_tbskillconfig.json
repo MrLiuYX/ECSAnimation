@@ -1,0 +1,1047 @@
+[
+  {
+    "id": "Skill_1",
+    "name": "获得金币",
+    "FlyText": true,
+    "Trigger": "敌人死亡",
+    "SkillClass": "Skill_GetMoney",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "1",
+      "2000"
+    ],
+    "Lv2": [
+      "2",
+      "3300"
+    ],
+    "Lv3": [
+      "4",
+      "5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_2",
+    "name": "溅射伤害",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_JianShe",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "2000"
+    ],
+    "Lv2": [
+      "3000"
+    ],
+    "Lv3": [
+      "5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_3",
+    "name": "受击加血",
+    "FlyText": false,
+    "Trigger": "受到近战伤害",
+    "SkillClass": "Skill_AddState",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "HPBBB=1000"
+    ],
+    "Lv2": [
+      "HPBBB=2000"
+    ],
+    "Lv3": [
+      "HPBBB=3000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_4",
+    "name": "不动如山",
+    "FlyText": true,
+    "Trigger": "受到近战伤害",
+    "SkillClass": "Skill_LessHitPoint",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "2000",
+      "5000",
+      "9500"
+    ],
+    "Lv2": [
+      "4000",
+      "5000",
+      "9500"
+    ],
+    "Lv3": [
+      "8000",
+      "5000",
+      "9500"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_5",
+    "name": "暴击大C",
+    "FlyText": true,
+    "Trigger": "近战命中暴击时",
+    "SkillClass": "Skill_MakeOtherDamage",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "0",
+      "20000"
+    ],
+    "Lv2": [
+      "0",
+      "30000"
+    ],
+    "Lv3": [
+      "0",
+      "40000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_6",
+    "name": "受击加随机队友血量 文丑",
+    "FlyText": false,
+    "Trigger": "受到近战伤害",
+    "SkillClass": "Skill_AddRandomTeammates",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "HPBBB=1000"
+    ],
+    "Lv2": [
+      "HPBBB=3000"
+    ],
+    "Lv3": [
+      "HPBBB=5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_7",
+    "name": "受击加攻击 颜良",
+    "FlyText": false,
+    "Trigger": "受到近战伤害",
+    "SkillClass": "Skill_AddState",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "AttBBB=1500"
+    ],
+    "Lv2": [
+      "AttBBB=5000"
+    ],
+    "Lv3": [
+      "AttBBB=5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_8",
+    "name": "孙尚香",
+    "FlyText": true,
+    "Trigger": "战斗开场Buff",
+    "SkillClass": "Skill_AddStateOnPos",
+    "AddPos": [
+      "self",
+      "1"
+    ],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "SpeedBBB=1000"
+    ],
+    "Lv2": [
+      "SpeedBBB=2000"
+    ],
+    "Lv3": [
+      "SpeedBBB=3000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_9",
+    "name": "曹休",
+    "FlyText": false,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddTargetSkill",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "10000",
+      "Skill_1002",
+      "1"
+    ],
+    "Lv2": [
+      "10000",
+      "Skill_1002",
+      "2"
+    ],
+    "Lv3": [
+      "10000",
+      "Skill_1002",
+      "3"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_10",
+    "name": "阿斗",
+    "FlyText": true,
+    "Trigger": "战斗开始",
+    "SkillClass": "Skill_SaveGold",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "1"
+    ],
+    "Lv2": [
+      "2"
+    ],
+    "Lv3": [
+      "3"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_11",
+    "name": "孙权",
+    "FlyText": true,
+    "Trigger": "战斗开场Buff",
+    "SkillClass": "Skill_AddStateSunQuan",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "1",
+      "AttBBB=1500|HPBBB=2000"
+    ],
+    "Lv2": [
+      "2",
+      "AttBBB=1500|HPBBB=2000"
+    ],
+    "Lv3": [
+      "4",
+      "AttBBB=1500|HPBBB=2000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_12",
+    "name": "血越少越猛 黄盖 ",
+    "FlyText": false,
+    "Trigger": "受到近战伤害",
+    "SkillClass": "Skill_HuangGai",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "2"
+    ],
+    "Lv2": [
+      "3"
+    ],
+    "Lv3": [
+      "6"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_13",
+    "name": "魏延1",
+    "FlyText": true,
+    "Trigger": "近战攻击前",
+    "SkillClass": "Skill_AddSelfBuff",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "2000",
+      "改变最终伤害",
+      "10000"
+    ],
+    "Lv2": [
+      "4000",
+      "改变最终伤害",
+      "10000"
+    ],
+    "Lv3": [
+      "8000",
+      "改变最终伤害",
+      "10000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_14",
+    "name": "魏延2",
+    "FlyText": true,
+    "Trigger": "受到近战伤害",
+    "SkillClass": "Skill_AddSelfBuff",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "2000",
+      "降低当前伤害",
+      "5000"
+    ],
+    "Lv2": [
+      "4000",
+      "降低当前伤害",
+      "5000"
+    ],
+    "Lv3": [
+      "8000",
+      "降低当前伤害",
+      "5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_15",
+    "name": "马岱连击",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_ContinueHit",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "1000"
+    ],
+    "Lv2": [
+      "2000"
+    ],
+    "Lv3": [
+      "3500"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_16",
+    "name": "刘备",
+    "FlyText": true,
+    "Trigger": "战斗开场Buff",
+    "SkillClass": "Skill_AddStateOnPosLiubei",
+    "AddPos": [
+      "1",
+      "self",
+      "1"
+    ],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "2000"
+    ],
+    "Lv2": [
+      "4000"
+    ],
+    "Lv3": [
+      "8000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_17",
+    "name": "貂蝉",
+    "FlyText": true,
+    "Trigger": "近战攻击前",
+    "SkillClass": "Skill_AddTargetSkill",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "10000",
+      "Skill_1004",
+      "1"
+    ],
+    "Lv2": [
+      "10000",
+      "Skill_1005",
+      "1"
+    ],
+    "Lv3": [
+      "10000",
+      "Skill_1006",
+      "1"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_18",
+    "name": "鲁肃",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddTargetState",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "SpeedBBB=-1000"
+    ],
+    "Lv2": [
+      "SpeedBBB=-2000"
+    ],
+    "Lv3": [
+      "SpeedBBB=-3000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_19",
+    "name": "郭嘉",
+    "FlyText": true,
+    "Trigger": "战斗开场Buff",
+    "SkillClass": "Skill_AddPosSkill",
+    "AddPos": [
+      "1",
+      "self",
+      "1"
+    ],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "Skill_20"
+    ],
+    "Lv2": [
+      "Skill_21"
+    ],
+    "Lv3": [
+      "Skill_22"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_20",
+    "name": "郭嘉附加技能",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddTargetSkill",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "2500",
+      "Skill_1003",
+      "1"
+    ],
+    "Lv2": [
+      "2500",
+      "Skill_1003",
+      "1"
+    ],
+    "Lv3": [
+      "2500",
+      "Skill_1003",
+      "1"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_21",
+    "name": "郭嘉附加技能",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddTargetSkill",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "3500",
+      "Skill_1003",
+      "1"
+    ],
+    "Lv2": [
+      "3500",
+      "Skill_1003",
+      "1"
+    ],
+    "Lv3": [
+      "3500",
+      "Skill_1003",
+      "1"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_22",
+    "name": "郭嘉附加技能",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddTargetSkill",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "5000",
+      "Skill_1003",
+      "1"
+    ],
+    "Lv2": [
+      "5000",
+      "Skill_1003",
+      "1"
+    ],
+    "Lv3": [
+      "5000",
+      "Skill_1003",
+      "1"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_23",
+    "name": "贾诩毒1",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddTargetSkill",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "10000",
+      "Skill_1002",
+      "1"
+    ],
+    "Lv2": [
+      "10000",
+      "Skill_1002",
+      "2"
+    ],
+    "Lv3": [
+      "10000",
+      "Skill_1002",
+      "3"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_24",
+    "name": "贾诩毒2",
+    "FlyText": false,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_RandomBoomPoison",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "3000"
+    ],
+    "Lv2": [
+      "6000"
+    ],
+    "Lv3": [
+      "10000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_25",
+    "name": "吕蒙",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddStateLvmeng",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "500"
+    ],
+    "Lv2": [
+      "1000"
+    ],
+    "Lv3": [
+      "1500"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_26",
+    "name": "吕蒙2",
+    "FlyText": false,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_AddTargetSkill",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "10000",
+      "Skill_1007",
+      "1"
+    ],
+    "Lv2": [
+      "10000",
+      "Skill_1007",
+      "2"
+    ],
+    "Lv3": [
+      "10000",
+      "Skill_1007",
+      "3"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_27",
+    "name": "吕蒙3",
+    "FlyText": false,
+    "Trigger": "给目标增加buff后",
+    "SkillClass": "Skill_SaveBuff",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "Skill_1007"
+    ],
+    "Lv2": [
+      "Skill_1007"
+    ],
+    "Lv3": [
+      "Skill_1007"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_28",
+    "name": "吕蒙4",
+    "FlyText": false,
+    "Trigger": "自身死亡",
+    "SkillClass": "Skill_RemoveSaveBuff",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "Skill_27"
+    ],
+    "Lv2": [
+      "Skill_27"
+    ],
+    "Lv3": [
+      "Skill_27"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_29",
+    "name": "张颌",
+    "FlyText": true,
+    "Trigger": "近战命中",
+    "SkillClass": "Skill_CallUnit",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "300",
+      "1",
+      "3000"
+    ],
+    "Lv2": [
+      "300",
+      "2",
+      "3000"
+    ],
+    "Lv3": [
+      "300",
+      "4",
+      "3000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_30",
+    "name": "华佗",
+    "FlyText": true,
+    "Trigger": "自身计时器",
+    "SkillClass": "Skill_HealingAll",
+    "AddPos": [],
+    "MaxRepeat": 0,
+    "RepeatType": 0,
+    "durationTime": 0,
+    "Lv1": [
+      "3",
+      "8000"
+    ],
+    "Lv2": [
+      "3",
+      "10000"
+    ],
+    "Lv3": [
+      "3",
+      "15000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1001",
+    "name": "毒(全局计时器)",
+    "FlyText": false,
+    "Trigger": "计时器触发",
+    "SkillClass": "Skill_Poison",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 1,
+    "durationTime": 3,
+    "Lv1": [
+      "1"
+    ],
+    "Lv2": [
+      "1"
+    ],
+    "Lv3": [
+      "1"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1002",
+    "name": "毒(自身计时器)",
+    "FlyText": false,
+    "Trigger": "自身计时器",
+    "SkillClass": "Skill_PoisonSelf",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 2,
+    "durationTime": 3,
+    "Lv1": [
+      "1"
+    ],
+    "Lv2": [
+      "1"
+    ],
+    "Lv3": [
+      "1"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1003",
+    "name": "冰冻",
+    "FlyText": true,
+    "Trigger": "自身计时器",
+    "SkillClass": "Skill_FreezeSelf",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 3,
+    "durationTime": 5,
+    "Lv1": [
+      "1"
+    ],
+    "Lv2": [
+      "1"
+    ],
+    "Lv3": [
+      "1"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1004",
+    "name": "虚弱",
+    "FlyText": true,
+    "Trigger": "自身计时器",
+    "SkillClass": "Skill_AddStateTime",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 4,
+    "durationTime": 2,
+    "Lv1": [
+      "AttBBB=-5000"
+    ],
+    "Lv2": [
+      "AttBBB=-5000"
+    ],
+    "Lv3": [
+      "AttBBB=-5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1005",
+    "name": "虚弱",
+    "FlyText": true,
+    "Trigger": "自身计时器",
+    "SkillClass": "Skill_AddStateTime",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 4,
+    "durationTime": 3,
+    "Lv1": [
+      "AttBBB=-5000"
+    ],
+    "Lv2": [
+      "AttBBB=-5000"
+    ],
+    "Lv3": [
+      "AttBBB=-5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1006",
+    "name": "虚弱",
+    "FlyText": true,
+    "Trigger": "自身计时器",
+    "SkillClass": "Skill_AddStateTime",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 4,
+    "durationTime": 4,
+    "Lv1": [
+      "AttBBB=-5000"
+    ],
+    "Lv2": [
+      "AttBBB=-5000"
+    ],
+    "Lv3": [
+      "AttBBB=-5000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1007",
+    "name": "属性被偷(对象死亡 skill结束)",
+    "FlyText": false,
+    "Trigger": "无条件",
+    "SkillClass": "Skill_AddStateRepeat",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 5,
+    "durationTime": 0,
+    "Lv1": [
+      "AttBBB=-500",
+      "HPBBB=-500"
+    ],
+    "Lv2": [
+      "AttBBB=-500",
+      "HPBBB=-500"
+    ],
+    "Lv3": [
+      "AttBBB=-500",
+      "HPBBB=-500"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  },
+  {
+    "id": "Skill_1008",
+    "name": "黄盖专属 每损失5%血量，移速/攻击力提升10/15/30%",
+    "FlyText": false,
+    "Trigger": "无条件",
+    "SkillClass": "Skill_AddStateRepeat",
+    "AddPos": [],
+    "MaxRepeat": 9999,
+    "RepeatType": 6,
+    "durationTime": 0,
+    "Lv1": [
+      "AttBBB=1000",
+      "SpeedBBB=1000"
+    ],
+    "Lv2": [
+      "AttBBB=1500",
+      "SpeedBBB=1500"
+    ],
+    "Lv3": [
+      "AttBBB=3000",
+      "SpeedBBB=3000"
+    ],
+    "MaxCount": [
+      -1,
+      -1,
+      -1
+    ]
+  }
+]

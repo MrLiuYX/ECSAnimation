@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1001,
+    "AssetName": "HellDoorMainUIForm",
+    "UIGroupName": "Normal",
+    "AllowMultiInstance": false
+  },
+  {
+    "Id": 1002,
+    "AssetName": "GameMainUIForm",
+    "UIGroupName": "Normal",
+    "AllowMultiInstance": false
+  },
+  {
+    "Id": 2001,
+    "AssetName": "SelectSkillUIForm",
+    "UIGroupName": "Pop",
+    "AllowMultiInstance": false
+  }
+]

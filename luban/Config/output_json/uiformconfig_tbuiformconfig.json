@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1001,
+    "AssetName": "MainMenuUIForm",
+    "UIGroupName": "Normal",
+    "AllowMultiInstance": false
+  },
+  {
+    "Id": 1002,
+    "AssetName": "SpineTestUIForm",
+    "UIGroupName": "Normal",
+    "AllowMultiInstance": false
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 10001,
+    "PrefabId": 10001,
+    "ComponentTypes": [],
+    "Desc": "测试模型1"
+  },
+  {
+    "Id": 10002,
+    "PrefabId": 10001,
+    "ComponentTypes": [],
+    "Desc": "测试模型2"
+  }
+]

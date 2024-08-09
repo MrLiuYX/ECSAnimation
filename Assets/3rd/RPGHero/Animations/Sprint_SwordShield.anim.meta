@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a31a0783d74a6e2418171bf2033b89c0
+timeCreated: 1550749002
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Animations/Sprint_SwordShield.anim
+  uploadId: 295833

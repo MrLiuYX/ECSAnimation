@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cce17be549d0ed844b495457cb439221
+timeCreated: 1529752718
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Animations/Idle_SwordShield.anim
+  uploadId: 295833

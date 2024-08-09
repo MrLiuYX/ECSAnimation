@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3359870381426100460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5193297093451067794}
+  - component: {fileID: 6913339382831655856}
+  m_Layer: 0
+  m_Name: ECS_DogPBR_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5193297093451067794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359870381426100460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6913339382831655856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359870381426100460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16bb5e97147a1ae4c83e69ed82d004c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationConfigs:
+  - AnimationId: 1
+    AnimationLoop: 1
+    StartLine: 0
+    EndLine: 84
+    TotalSec: 0.8333334
+  - AnimationId: 2
+    AnimationLoop: 0
+    StartLine: 84
+    EndLine: 201
+    TotalSec: 1.1666667
+  - AnimationId: 3
+    AnimationLoop: 1
+    StartLine: 201
+    EndLine: 301
+    TotalSec: 1
+  - AnimationId: 4
+    AnimationLoop: 0
+    StartLine: 301
+    EndLine: 418
+    TotalSec: 1.1666667
+  eventConfigs: []
+  Config:
+    Width: 3430
+    Height: 418
+  MeshPath: Assets\AssetBundleRes\Main\Prefabs\ECSRendererData\ECS_DogPBR\ECS_DogPBR_mesh.mesh
+  MatPath: Assets\AssetBundleRes\Main\Prefabs\ECSRendererData\ECS_DogPBR\ECS_DogPBR_mat.mat

@@ -1,0 +1,5 @@
+D:/git/zhuanzhuan/transferring-used-cars/.utmp/RelWithDebInfo/165i6u41/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/git/zhuanzhuan/transferring-used-cars/.utmp/RelWithDebInfo/165i6u41/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/git/zhuanzhuan/transferring-used-cars/.utmp/RelWithDebInfo/165i6u41/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+D:/git/zhuanzhuan/transferring-used-cars/.utmp/RelWithDebInfo/165i6u41/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+D:/git/zhuanzhuan/transferring-used-cars/.utmp/RelWithDebInfo/165i6u41/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir

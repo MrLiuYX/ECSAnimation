@@ -1,0 +1,5 @@
+D:/git/HellDoor/hell-door/.utmp/RelWithDebInfo/4mz3u66k/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/git/HellDoor/hell-door/.utmp/RelWithDebInfo/4mz3u66k/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+D:/git/HellDoor/hell-door/.utmp/RelWithDebInfo/4mz3u66k/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+D:/git/HellDoor/hell-door/.utmp/RelWithDebInfo/4mz3u66k/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+D:/git/HellDoor/hell-door/.utmp/RelWithDebInfo/4mz3u66k/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir

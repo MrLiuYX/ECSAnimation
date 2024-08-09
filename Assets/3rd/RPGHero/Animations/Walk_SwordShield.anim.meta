@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c8dd6402cb0b5934eaff16201236b371
+timeCreated: 1529752786
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 121480
+  packageName: RPG Hero PBR HP Polyart
+  packageVersion: 1.1
+  assetPath: Assets/RPGHero/Animations/Walk_SwordShield.anim
+  uploadId: 295833
