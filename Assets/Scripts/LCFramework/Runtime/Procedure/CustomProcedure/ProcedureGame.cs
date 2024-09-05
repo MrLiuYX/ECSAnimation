@@ -15,19 +15,21 @@ namespace Native.Procedure
 		public override void OnEnter(IFSM fsm)
 		{
 			base.OnEnter(fsm);
-			ECSBridgeManager.Instance.OnEnterGame();
 		}
 
 		public override void OnUpdate(IFSM fsm, float elpaseSecond)
 		{
 			base.OnUpdate(fsm, elpaseSecond);
-            ECSBridgeManager.Instance.OnUpdate(elpaseSecond);
+            if(Input.GetKeyDown(KeyCode.Escape))
+			{
+                fsm.ChangeState<ProcedureMain>();
+            }
         }
 
 		public override void OnExit(IFSM fsm)
 		{
 			base.OnExit(fsm);
-            ECSBridgeManager.Instance.OnExitGame();
+            ECSBridgeManager.Instance.ClearAllEntity();
         }
 	}
 }

@@ -46,6 +46,7 @@ Shader "Unlit/Animation"
                 float2 uv : TEXCOORD0;
                 fixed3 worldNormal : TEXCOORD1; 
                 float4 debug : TEXCOORD2;
+                fixed4 customData : TEXCOORD3;
             };
 
             sampler2D _MainTex;
@@ -60,14 +61,18 @@ Shader "Unlit/Animation"
             v2f vert (appdata v)
             {
                 float vid = v.vid + 0.5;
-                v.sid *= 2;
+                v.sid *= 3;
 
                 // 读取instanceData        
-                float4 instanceData = tex2Dlod(_InstanceDataTex, float4(v.sid % _Size, v.sid / _Size, 0, 0) * (1 / _Size));         
-                float4 instanceData2 = tex2Dlod(_InstanceDataTex, float4((v.sid + 1) % _Size, (v.sid) / _Size, 0, 0) * (1 / _Size));                
+                float normalizeLen = (1 / _Size);
+                float4 instanceData = tex2Dlod(_InstanceDataTex, float4(v.sid % _Size, v.sid / _Size, 0, 0) * normalizeLen);         
+                float4 instanceData2 = tex2Dlod(_InstanceDataTex, float4((v.sid + 1) % _Size, (v.sid + 1) / _Size, 0, 0) * normalizeLen);                
+                float4 instanceData3 = tex2Dlod(_InstanceDataTex, float4((v.sid + 2) % _Size, (v.sid + 2) / _Size, 0, 0) * normalizeLen);                
 
                 // 顶点位置计算
                 float4 vertex = tex2Dlod(_VertexDataTex, float4(vid * _UVX, instanceData.w, 0, 0));
+                float4 lastVertex = tex2Dlod(_VertexDataTex, float4(vid * _UVX, instanceData3.x, 0, 0));
+                vertex = lerp(lastVertex, vertex, instanceData3.y);
 
                 float4x4 M_Scale = float4x4
                 (
@@ -83,8 +88,8 @@ Shader "Unlit/Animation"
                 float4x4 M_rotateX = float4x4
                     (
                     1,0,0,0,
-                    0,cos(instanceData2.x),sin(instanceData2.x),0,
-                    0,-sin(instanceData2.x),cos(instanceData2.x),0,
+                    0,cos(instanceData2.x),-sin(instanceData2.x),0,
+                    0,sin(instanceData2.x),cos(instanceData2.x),0,
                     0,0,0,1
                     );
                 float4x4 M_rotateY = float4x4
@@ -96,8 +101,8 @@ Shader "Unlit/Animation"
                     );
                 float4x4 M_rotateZ = float4x4
                     (
-                        cos(instanceData2.z),sin(instanceData2.z),0,0,
-                        -sin(instanceData2.z),cos(instanceData2.z),0,0,
+                        cos(instanceData2.z),-sin(instanceData2.z),0,0,
+                        sin(instanceData2.z),cos(instanceData2.z),0,0,
                         0,0,1,0,
                         0,0,0,1
                     );
@@ -125,6 +130,7 @@ Shader "Unlit/Animation"
                 o.uv = v.uv;
                 o.worldNormal = UnityObjectToWorldNormal(rotatedNormal);
                 o.debug = instanceData;
+                o.customData = instanceData3;
                 return o;
             }
 
@@ -135,8 +141,7 @@ Shader "Unlit/Animation"
                 fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * max(0, dot(worldLight, i.worldNormal));
                 fixed3 color = diffuse + ambient; 
                 fixed4 col = tex2D(_MainTex, i.uv);
-                //这边测试打包到手机上worldLight有问题 暂时还没查到原因 不加入漫反射
-                //return fixed4(color,1) * col;
+                col += i.customData.zzzz;
                 return col;
             }
             ENDCG

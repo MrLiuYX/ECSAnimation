@@ -10,7 +10,9 @@ public class ECSBridgeManager : GameManagerBase<ECSBridgeManager, NullData>
 
     public EntityPoolGroup EntityPoolGroup;
     public EntityAnimationGroup EntityAnimationGroup;
+    public EntityLogicGroup EntityLogicGroup;
     public PlayerInputSystem PlayerInputSystem;
+    public EntityManagerSystem EntityManagerSystem;
 
     public override void InitManager()
     {
@@ -21,7 +23,11 @@ public class ECSBridgeManager : GameManagerBase<ECSBridgeManager, NullData>
     {
         EntityPoolGroup = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<EntityPoolGroup>();
         EntityAnimationGroup = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<EntityAnimationGroup>();
+        EntityLogicGroup = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<EntityLogicGroup>();
         PlayerInputSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<PlayerInputSystem>();
+        EntityManagerSystem = World.DefaultGameObjectInjectionWorld.GetOrCreateSystemManaged<EntityManagerSystem>();
+
+        EntityManagerSystem.Enabled = true;
     }
 
     public override void OnEnterGame()
@@ -29,6 +35,7 @@ public class ECSBridgeManager : GameManagerBase<ECSBridgeManager, NullData>
         base.OnEnterGame();
         EntityPoolGroup.Enabled = true;
         EntityAnimationGroup.Enabled = true;
+        EntityLogicGroup.Enabled = true;
         PlayerInputSystem.Enabled = true;
     }
 
@@ -37,6 +44,12 @@ public class ECSBridgeManager : GameManagerBase<ECSBridgeManager, NullData>
         base.OnExitGame();
         EntityPoolGroup.Enabled = false;
         EntityAnimationGroup.Enabled = false;
+        EntityLogicGroup.Enabled = false;
         PlayerInputSystem.Enabled = false;
+    }
+
+    public void ClearAllEntity()
+    {
+        EntityManagerSystem.ClearAllEntity();
     }
 }

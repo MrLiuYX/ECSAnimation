@@ -20,12 +20,12 @@ public sealed partial class EntityConfig :  Bright.Config.BeanBase
     {
         { if(!_json["Id"].IsNumber) { throw new SerializationException(); }  Id = _json["Id"]; }
         { if(!_json["PrefabId"].IsNumber) { throw new SerializationException(); }  PrefabId = _json["PrefabId"]; }
-        { var __json0 = _json["ComponentTypes"]; if(!__json0.IsArray) { throw new SerializationException(); } ComponentTypes = new System.Collections.Generic.List<ArcheType>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { ArcheType __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = (ArcheType)__e0.AsInt; }  ComponentTypes.Add(__v0); }   }
+        { var __json0 = _json["ComponentTypes"]; if(!__json0.IsArray) { throw new SerializationException(); } ComponentTypes = new System.Collections.Generic.List<ComponentType>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { ComponentType __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = (ComponentType)__e0.AsInt; }  ComponentTypes.Add(__v0); }   }
         { if(!_json["Desc"].IsString) { throw new SerializationException(); }  Desc = _json["Desc"]; }
         PostInit();
     }
 
-    public EntityConfig(long Id, long PrefabId, System.Collections.Generic.List<ArcheType> ComponentTypes, string Desc ) 
+    public EntityConfig(long Id, long PrefabId, System.Collections.Generic.List<ComponentType> ComponentTypes, string Desc ) 
     {
         this.Id = Id;
         this.PrefabId = PrefabId;
@@ -50,7 +50,7 @@ public sealed partial class EntityConfig :  Bright.Config.BeanBase
     /// <summary>
     /// 实体组件
     /// </summary>
-    public System.Collections.Generic.List<ArcheType> ComponentTypes { get; private set; }
+    public System.Collections.Generic.List<ComponentType> ComponentTypes { get; private set; }
     /// <summary>
     /// 备注
     /// </summary>

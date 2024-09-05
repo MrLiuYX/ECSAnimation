@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: bb7aed19963ed7a488a09170a91d20b3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bird
+    100002: //RootNode
+    100004: Rig
+    100006: RigHead
+    100008: RigJawDown
+    100010: RigJawUp
+    100012: RigLArm1
+    100014: RigLArm2
+    100016: RigLArmDigit21
+    100018: RigLArmPalm
+    100020: RigLLeg1
+    100022: RigLLeg2
+    100024: RigLLegAnkle
+    100026: RigLLegDigit11
+    100028: RigLLegDigit12
+    100030: RigLLegDigit21
+    100032: RigLLegDigit22
+    100034: RigLLegPlatform
+    100036: RigNeck
+    100038: RigPelvis
+    100040: RigRArm1
+    100042: RigRArm2
+    100044: RigRArmDigit21
+    100046: RigRArmPalm
+    100048: RigRibcage
+    100050: RigRLeg1
+    100052: RigRLeg2
+    100054: RigRLegAnkle
+    100056: RigRLegDigit11
+    100058: RigRLegDigit12
+    100060: RigRLegDigit21
+    100062: RigRLegDigit22
+    100064: RigRLegPlatform
+    100066: RigSpine1
+    100068: RigSpine2
+    100070: RigTail1
+    100072: RigTail2
+    100074: RigTail3
+    100076: RigTail4
+    100078: RigTail5
+    400000: Bird
+    400002: //RootNode
+    400004: Rig
+    400006: RigHead
+    400008: RigJawDown
+    400010: RigJawUp
+    400012: RigLArm1
+    400014: RigLArm2
+    400016: RigLArmDigit21
+    400018: RigLArmPalm
+    400020: RigLLeg1
+    400022: RigLLeg2
+    400024: RigLLegAnkle
+    400026: RigLLegDigit11
+    400028: RigLLegDigit12
+    400030: RigLLegDigit21
+    400032: RigLLegDigit22
+    400034: RigLLegPlatform
+    400036: RigNeck
+    400038: RigPelvis
+    400040: RigRArm1
+    400042: RigRArm2
+    400044: RigRArmDigit21
+    400046: RigRArmPalm
+    400048: RigRibcage
+    400050: RigRLeg1
+    400052: RigRLeg2
+    400054: RigRLegAnkle
+    400056: RigRLegDigit11
+    400058: RigRLegDigit12
+    400060: RigRLegDigit21
+    400062: RigRLegDigit22
+    400064: RigRLegPlatform
+    400066: RigSpine1
+    400068: RigSpine2
+    400070: RigTail1
+    400072: RigTail2
+    400074: RigTail3
+    400076: RigTail4
+    400078: RigTail5
+    2100000: 07 - Default
+    4300000: Bird
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Bird
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

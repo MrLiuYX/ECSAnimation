@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 602b43044a50d6a4da672c9e7ca23eab
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Flower Pot Monster
+    100002: //RootNode
+    100004: Rig
+    100006: RigHead
+    100008: RigHeadGizmo
+    100010: RigJaw
+    100012: RigJawGizmo
+    100014: RigLLeg1
+    100016: RigLLeg2
+    100018: RigLLegAnkle
+    100020: RigLLegPlatform
+    100022: RigNeck1
+    100024: RigNeck1Gizmo
+    100026: RigNeck2
+    100028: RigNeck2Gizmo
+    100030: RigNeck3
+    100032: RigNeck3Gizmo
+    100034: RigNeck4
+    100036: RigNeck4Gizmo
+    100038: RigNeck5
+    100040: RigNeck5Gizmo
+    100042: RigNeck6
+    100044: RigNeck6Gizmo
+    100046: RigPelvis
+    100048: RigPelvisGizmo
+    100050: RigPetal N1
+    100052: RigPetal N2
+    100054: RigPetal N3
+    100056: RigPetal N4
+    100058: RigPetal N5
+    100060: RigPetal N6
+    100062: RigPetal N7
+    100064: RigPetal NE1
+    100066: RigPetal NE2
+    100068: RigPetal NE3
+    100070: RigPetal NE4
+    100072: RigPetal NE5
+    100074: RigPetal NE6
+    100076: RigPetal NE7
+    100078: RigPetal NW1
+    100080: RigPetal NW2
+    100082: RigPetal NW3
+    100084: RigPetal NW4
+    100086: RigPetal NW5
+    100088: RigPetal NW6
+    100090: RigPetal NW7
+    100092: RigPetal S1
+    100094: RigPetal S2
+    100096: RigPetal S3
+    100098: RigPetal S4
+    100100: RigPetal S5
+    100102: RigPetal S6
+    100104: RigPetal S7
+    100106: RigPetal SE1
+    100108: RigPetal SE2
+    100110: RigPetal SE3
+    100112: RigPetal SE4
+    100114: RigPetal SE5
+    100116: RigPetal SE6
+    100118: RigPetal SE7
+    100120: RigPetal SW1
+    100122: RigPetal SW2
+    100124: RigPetal SW3
+    100126: RigPetal SW4
+    100128: RigPetal SW5
+    100130: RigPetal SW6
+    100132: RigPetal SW7
+    400000: Flower Pot Monster
+    400002: //RootNode
+    400004: Rig
+    400006: RigHead
+    400008: RigHeadGizmo
+    400010: RigJaw
+    400012: RigJawGizmo
+    400014: RigLLeg1
+    400016: RigLLeg2
+    400018: RigLLegAnkle
+    400020: RigLLegPlatform
+    400022: RigNeck1
+    400024: RigNeck1Gizmo
+    400026: RigNeck2
+    400028: RigNeck2Gizmo
+    400030: RigNeck3
+    400032: RigNeck3Gizmo
+    400034: RigNeck4
+    400036: RigNeck4Gizmo
+    400038: RigNeck5
+    400040: RigNeck5Gizmo
+    400042: RigNeck6
+    400044: RigNeck6Gizmo
+    400046: RigPelvis
+    400048: RigPelvisGizmo
+    400050: RigPetal N1
+    400052: RigPetal N2
+    400054: RigPetal N3
+    400056: RigPetal N4
+    400058: RigPetal N5
+    400060: RigPetal N6
+    400062: RigPetal N7
+    400064: RigPetal NE1
+    400066: RigPetal NE2
+    400068: RigPetal NE3
+    400070: RigPetal NE4
+    400072: RigPetal NE5
+    400074: RigPetal NE6
+    400076: RigPetal NE7
+    400078: RigPetal NW1
+    400080: RigPetal NW2
+    400082: RigPetal NW3
+    400084: RigPetal NW4
+    400086: RigPetal NW5
+    400088: RigPetal NW6
+    400090: RigPetal NW7
+    400092: RigPetal S1
+    400094: RigPetal S2
+    400096: RigPetal S3
+    400098: RigPetal S4
+    400100: RigPetal S5
+    400102: RigPetal S6
+    400104: RigPetal S7
+    400106: RigPetal SE1
+    400108: RigPetal SE2
+    400110: RigPetal SE3
+    400112: RigPetal SE4
+    400114: RigPetal SE5
+    400116: RigPetal SE6
+    400118: RigPetal SE7
+    400120: RigPetal SW1
+    400122: RigPetal SW2
+    400124: RigPetal SW3
+    400126: RigPetal SW4
+    400128: RigPetal SW5
+    400130: RigPetal SW6
+    400132: RigPetal SW7
+    2100000: 01 - Default
+    4300000: Flower Pot Monster
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Flower Pot Monster
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

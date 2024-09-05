@@ -31,8 +31,7 @@ Shader "Unlit/HpBar"
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
                 fixed4 col : TEXCOORD2;
-
-                float4 data : TEXCOORD3;//x curHp, y maxHp, z shieldValue
+                float4 data2 : TEXCOORD3;
             };
 
             //C#
@@ -52,14 +51,15 @@ Shader "Unlit/HpBar"
                 //Èý¸öÏñËØµã
                 id *= 3;
 
-                float4 data1 = tex2Dlod(_DataTex, float4(id % _Size, id / _Size, 0, 0) * (1 / _Size));                
-                float4 data2 = tex2Dlod(_DataTex, float4((id + 1) % _Size, id / _Size, 0, 0) * (1 / _Size));                
-                float4 data3 = tex2Dlod(_DataTex, float4((id + 2) % _Size, id / _Size, 0, 0) * (1 / _Size));           
+                float normalizeLen = (1 / _Size);
+                float4 data1 = tex2Dlod(_DataTex, float4(id % _Size, id / _Size, 0, 0) * normalizeLen);                
+                float4 data2 = tex2Dlod(_DataTex, float4((id + 1) % _Size, (id + 1) / _Size, 0, 0) * normalizeLen);             
+                float4 data3 = tex2Dlod(_DataTex, float4((id + 2) % _Size, (id + 2) / _Size, 0, 0) * normalizeLen);      
 
-                v.vertex *= float4(data1.x, data1.y, 1, 1);
-                o.vertex = mul(UNITY_MATRIX_P, mul(UNITY_MATRIX_MV, float4(data1.z, 2, data1.w, 1)) + float4(v.vertex.x, v.vertex.y, 0, 0));
-                o.col = fixed4(data2.xyz, 1);
-                o.data = data3;
+                v.vertex *= float4(data2.z, data2.w, 1, 1);
+                o.vertex = mul(UNITY_MATRIX_P, mul(UNITY_MATRIX_MV, float4(data3.x, data1.w, data3.z, 1)) + float4(v.vertex.x, v.vertex.y, 0, 0));
+                o.col = fixed4(data1.xyz, 1);
+                o.data2 = data2;
                 return o;
             }
 
@@ -79,15 +79,12 @@ Shader "Unlit/HpBar"
                 }
                 else
                 {
-                    if (i.uv.x <= i.data.x) 
+                    float ratio = i.data2.x / i.data2.y;
+                    if (i.uv.x <= ratio) 
                     {
                         col = i.col;
                     }
-                    else if(i.uv.x <= i.data.y)
-                    {
-                        col = 0.85f;
-                    }
-                    else if(i.uv.x <= 1)
+                    else
                     {
                         col = fixed4(0,0,0,1);
                     }

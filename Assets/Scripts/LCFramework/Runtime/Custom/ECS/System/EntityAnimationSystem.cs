@@ -15,26 +15,29 @@ public partial struct EntityAnimationSystem : ISystem
     public struct RendererWriteData
     {
         public int MeshAndMatIndex;
-        public AnimationInstanceComponentData InstanceData;
+        public EntityAnimationInstanceComponentData InstanceData;
     }
 
     [BurstCompile]
     public partial struct ECSAnimationSystemJob : IJobEntity
     {
         [ReadOnly]public float DeltaTime;
+        [ReadOnly] public EntityCommonValueComponentData _commonValueData;
+        [ReadOnly] public ComponentLookup<EntitySearchTag> _searchDataLookup;
+
         public NativeList<RendererWriteData>.ParallelWriter _datas;
 
         [BurstCompile]
         public void Execute(
-                AnimationConfigComponentData config
-                , ref AnimationRuntimeComponentData data
-                , ref AnimationInstanceComponentData instanceData
-                , DynamicBuffer<AnimationConfigBuffer> configBuffer
-                , DynamicBuffer<AnimationEventConfigBuffer> eventConfigBuffer
+                EntityAnimationConfigComponentData config
+                , ref EntityAnimationRuntimeComponentData data
+                , ref EntityAnimationInstanceComponentData instanceData
+                , DynamicBuffer<EntityAnimationConfigBuffer> configBuffer
+                , DynamicBuffer<EntityAnimationEventConfigBuffer> eventConfigBuffer
                 , DynamicBuffer<EntityAnimationTriggerEventBuffer> eventBuffer
                 , DynamicBuffer<EntityAnimationWaitTriggerEventBuffer> waitEventBuffer
-                , InstanceTag tag
-                , ref LocalTransform tsData, [ChunkIndexInQuery] int sortKey
+                , InstanceTag _
+                , ref LocalTransform tsData
             )
         {
             if (configBuffer.Length == 0) goto PlayAnim;
@@ -43,6 +46,8 @@ public partial struct EntityAnimationSystem : ISystem
 
             //切换
             data.CurrentAnimationId = data.NextAnimationId;
+            instanceData.lastUVY = instanceData.uvY;
+            instanceData.lerpValue = 0;
             for (int i = 0; i < configBuffer.Length; i++)
             {
                 if (data.CurrentAnimationId == configBuffer[i].AnimationId)
@@ -61,7 +66,7 @@ public partial struct EntityAnimationSystem : ISystem
 
         //播放动画
         PlayAnim:
-            if (data.CurrentConfig == AnimationConfigBuffer.Null)
+            if (data.CurrentConfig == EntityAnimationConfigBuffer.Null)
             {
                 if (configBuffer.Length > 0)
                 {
@@ -83,18 +88,27 @@ public partial struct EntityAnimationSystem : ISystem
                 : trulyValue;
             var uvY = math.clamp((data.NormalizeTime * ((data.CurrentConfig.EndLine - data.CurrentConfig.StartLine) * 1.0f / config.Height)) + data.CurrentConfig.StartLine * 1.0f / config.Height, 0, data.CurrentConfig.EndLine * 1.0f / config.Height - 1f / config.Height);
 
+            var rot = ((Quaternion)tsData.Rotation).eulerAngles;
+
             instanceData.pos = tsData.Position;
             instanceData.uvY = uvY;
-            instanceData.rot = ((Quaternion)tsData.Rotation).eulerAngles;
+            instanceData.rot = new float3(math.radians(rot.x), math.radians(rot.y), math.radians(rot.z));
             instanceData.scale = tsData.Scale;
-            _datas.AddNoResize(new RendererWriteData()
+            instanceData.lerpValue = math.clamp(instanceData.lerpValue + 1 / data.Duration * DeltaTime, 0, 1);
+            instanceData.flashWhite = math.clamp(instanceData.flashWhite - 1 / 0.3f * DeltaTime, 0, 1);
+
+            //屏幕内才渲染
+            if (_commonValueData.CheckInScreen(tsData.Position))
             {
-                MeshAndMatIndex = data.MeshAndMatIndex,
-                InstanceData = instanceData,
-            });
+                _datas.AddNoResize(new RendererWriteData()
+                {
+                    MeshAndMatIndex = data.MeshAndMatIndex,
+                    InstanceData = instanceData,
+                });
+            }
 
 
-            //TODO:事件处理
+            //事件处理
             eventBuffer.Clear();
 
             var compareNormalizeTime = tempRepeatCount == data.CurrentRepeatCount ? data.NormalizeTime : 1;
@@ -129,9 +143,9 @@ public partial struct EntityAnimationSystem : ISystem
         }
 
         private void ReigsterWaitEvent(
-            DynamicBuffer<AnimationEventConfigBuffer> eventConfigBuffer
+            DynamicBuffer<EntityAnimationEventConfigBuffer> eventConfigBuffer
             , DynamicBuffer<EntityAnimationWaitTriggerEventBuffer> waitEventBuffer
-            , AnimationRuntimeComponentData data)
+            , EntityAnimationRuntimeComponentData data)
         {
             waitEventBuffer.Clear();
             for (int i = 0; i < eventConfigBuffer.Length; i++)
@@ -169,10 +183,13 @@ public partial struct EntityAnimationSystem : ISystem
     {
         var datas = SystemAPI.GetSingletonRW<AnimationInstanceDatas>();
         datas.ValueRW.Datas.Clear();
+
         state.Dependency = new ECSAnimationSystemJob
         {
             DeltaTime = SystemAPI.Time.DeltaTime,
-            _datas = datas.ValueRW.Datas.AsParallelWriter()
+            _datas = datas.ValueRW.Datas.AsParallelWriter(),
+            _commonValueData = SystemAPI.GetSingleton<EntityCommonValueComponentData>(),
+            _searchDataLookup = SystemAPI.GetComponentLookup<EntitySearchTag>(),
         }.ScheduleParallel(state.Dependency);
         state.Dependency.Complete();
     }

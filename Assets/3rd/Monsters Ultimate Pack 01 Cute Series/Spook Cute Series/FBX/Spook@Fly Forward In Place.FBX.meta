@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 09623e1438c11cc449fe72946e844002
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Rig
+    100002: RigHead
+    100004: RigHeadGizmo
+    100006: RigLArm1
+    100008: RigLArm1Gizmo
+    100010: RigLArm2
+    100012: RigLArm2Gizmo
+    100014: RigLArmDigit11
+    100016: RigLArmDigit12
+    100018: RigLArmDigit13
+    100020: RigLArmPalm
+    100022: RigLArmPalmGizmo
+    100024: RigNeck
+    100026: RigPelvis
+    100028: RigPelvisGizmo
+    100030: RigRArm1
+    100032: RigRArm1Gizmo
+    100034: RigRArm2
+    100036: RigRArm2Gizmo
+    100038: RigRArmDigit11
+    100040: RigRArmDigit12
+    100042: RigRArmDigit13
+    100044: RigRArmPalm
+    100046: RigRArmPalmGizmo
+    100048: RigRibcage
+    100050: RigRibcageGizmo
+    100052: RigSpine
+    100054: RigTail1
+    100056: RigTail1Gizmo
+    100058: RigTail2
+    100060: RigTail2Gizmo
+    100062: RigTail3
+    100064: RigTail3Gizmo
+    100066: RigTail4
+    100068: RigTail4Gizmo
+    100070: RigTail5
+    100072: RigTail5Gizmo
+    100074: RigTail6
+    100076: RigTail6Gizmo
+    100078: Spook
+    100080: //RootNode
+    400000: Rig
+    400002: RigHead
+    400004: RigHeadGizmo
+    400006: RigLArm1
+    400008: RigLArm1Gizmo
+    400010: RigLArm2
+    400012: RigLArm2Gizmo
+    400014: RigLArmDigit11
+    400016: RigLArmDigit12
+    400018: RigLArmDigit13
+    400020: RigLArmPalm
+    400022: RigLArmPalmGizmo
+    400024: RigNeck
+    400026: RigPelvis
+    400028: RigPelvisGizmo
+    400030: RigRArm1
+    400032: RigRArm1Gizmo
+    400034: RigRArm2
+    400036: RigRArm2Gizmo
+    400038: RigRArmDigit11
+    400040: RigRArmDigit12
+    400042: RigRArmDigit13
+    400044: RigRArmPalm
+    400046: RigRArmPalmGizmo
+    400048: RigRibcage
+    400050: RigRibcageGizmo
+    400052: RigSpine
+    400054: RigTail1
+    400056: RigTail1Gizmo
+    400058: RigTail2
+    400060: RigTail2Gizmo
+    400062: RigTail3
+    400064: RigTail3Gizmo
+    400066: RigTail4
+    400068: RigTail4Gizmo
+    400070: RigTail5
+    400072: RigTail5Gizmo
+    400074: RigTail6
+    400076: RigTail6Gizmo
+    400078: Spook
+    400080: //RootNode
+    2100000: 07 - Default
+    4300000: Spook
+    7400000: Fly Forward In Place
+    9500000: //RootNode
+    13700000: Spook
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fly Forward In Place
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

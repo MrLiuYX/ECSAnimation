@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &867124239958985918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6325852099889975154}
+  - component: {fileID: 6557089821561767598}
+  m_Layer: 0
+  m_Name: ECS_Bat_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6325852099889975154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867124239958985918}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6557089821561767598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867124239958985918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16bb5e97147a1ae4c83e69ed82d004c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationConfigs:
+  - AnimationId: 0
+    AnimationLoop: 1
+    StartLine: 0
+    EndLine: 134
+    TotalSec: 1.3333334
+  - AnimationId: 1
+    AnimationLoop: 1
+    StartLine: 134
+    EndLine: 201
+    TotalSec: 0.6666667
+  - AnimationId: 2
+    AnimationLoop: 1
+    StartLine: 201
+    EndLine: 285
+    TotalSec: 0.8333334
+  - AnimationId: 3
+    AnimationLoop: 0
+    StartLine: 285
+    EndLine: 452
+    TotalSec: 1.6666667
+  eventConfigs:
+  - AnimationId: 2
+    EventId: 1
+    NormalizeTriggerTime: 0.4
+  Config:
+    Width: 1178
+    Height: 452
+  MeshPath: Assets\AssetBundleRes\Main\Prefabs\ECSRendererData\ECS_Bat\ECS_Bat_mesh.mesh
+  MatPath: Assets\AssetBundleRes\Main\Prefabs\ECSRendererData\ECS_Bat\ECS_Bat_mat.mat

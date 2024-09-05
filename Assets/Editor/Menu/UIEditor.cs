@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using UnityEditor;
 using System.IO;
+using System;
 
 namespace Native.Editor
 {
@@ -61,6 +62,12 @@ namespace Native.Editor
                         InternalGeneratorLogicCode();
                     }
                 }
+                var type = Type.GetType($"Native.UI.{_prefab.name}");
+                if (type != null)
+                {
+                    _prefab.AddComponent(type);
+                }
+                EditorUtility.SetDirty(_prefab);
                 AssetDatabase.Refresh();
             }
             GUILayout.EndVertical();

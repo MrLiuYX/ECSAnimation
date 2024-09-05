@@ -33,7 +33,6 @@ public class DemoTestButton : MonoBehaviour
 
         var str = _hide ? "显示" : "隐藏";
         GUILayout.Label(Size("", 30));
-        GUILayout.Label(Size("方阵1的顶点有3405个, 方阵2 3405个, 方阵3 300个, 方阵4 7210个", 30));
         GUILayout.Label(Size(string.Format("FPS:{0:f2}", FPS), 30));
         if (GUILayout.Button(Size(str, 30), GUILayout.Width(100), GUILayout.Height(100)))
         {
@@ -49,17 +48,17 @@ public class DemoTestButton : MonoBehaviour
         {
             if(GUILayout.Button(Size($"方阵{i + 1}", 30), GUILayout.Width(100), GUILayout.Height(100)))
             {
-                ECSBridgeManager.Instance.PlayerInputSystem.Create(i, 1000);
+                ECSBridgeManager.Instance.PlayerInputSystem.Create(i, 2500);
             }
         }
 
         if(GUILayout.Button(Size($"Clear", 30), GUILayout.Width(100), GUILayout.Height(100)))
         {
-            ECSBridgeManager.Instance.PlayerInputSystem.Clear();
+            ECSBridgeManager.Instance.EntityManagerSystem.ClearAllEntity();
         }
 
         if (ECSBridgeManager.Instance.PlayerInputSystem == null) return;
-        GUILayout.Label(Size($"实体数量{ECSBridgeManager.Instance.PlayerInputSystem.Count}", 40));
+        GUILayout.Label(Size($"实体数量{ECSBridgeManager.Instance.EntityManagerSystem.GetEntityCount()}", 40));
     }
 
     private string Size(string str, int size)

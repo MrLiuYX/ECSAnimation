@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: c334cc8cf1d3f714c835c9a0bf8c0ae6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ghost
+    100002: //RootNode
+    100004: Rig
+    100006: RigHead
+    100008: RigHeadGizmo
+    100010: RigJaw
+    100012: RigJawGizmo
+    100014: RigLArm1
+    100016: RigLArm1Gizmo
+    100018: RigLArm2
+    100020: RigLArm2Gizmo
+    100022: RigLArm3
+    100024: RigLArm3Gizmo
+    100026: RigNeck
+    100028: RigPelvis
+    100030: RigPelvisGizmo
+    100032: RigRArm1
+    100034: RigRArm1Gizmo
+    100036: RigRArm2
+    100038: RigRArm2Gizmo
+    100040: RigRArm3
+    100042: RigRArm3Gizmo
+    100044: RigRibcage
+    100046: RigRibcageGizmo
+    100048: RigSpine
+    100050: RigTail1
+    100052: RigTail1Gizmo
+    100054: RigTail2
+    100056: RigTail2Gizmo
+    100058: RigTail3
+    100060: RigTail3Gizmo
+    100062: RigTail4
+    100064: RigTail4Gizmo
+    100066: RigTail5
+    100068: RigTail5Gizmo
+    400000: Ghost
+    400002: //RootNode
+    400004: Rig
+    400006: RigHead
+    400008: RigHeadGizmo
+    400010: RigJaw
+    400012: RigJawGizmo
+    400014: RigLArm1
+    400016: RigLArm1Gizmo
+    400018: RigLArm2
+    400020: RigLArm2Gizmo
+    400022: RigLArm3
+    400024: RigLArm3Gizmo
+    400026: RigNeck
+    400028: RigPelvis
+    400030: RigPelvisGizmo
+    400032: RigRArm1
+    400034: RigRArm1Gizmo
+    400036: RigRArm2
+    400038: RigRArm2Gizmo
+    400040: RigRArm3
+    400042: RigRArm3Gizmo
+    400044: RigRibcage
+    400046: RigRibcageGizmo
+    400048: RigSpine
+    400050: RigTail1
+    400052: RigTail1Gizmo
+    400054: RigTail2
+    400056: RigTail2Gizmo
+    400058: RigTail3
+    400060: RigTail3Gizmo
+    400062: RigTail4
+    400064: RigTail4Gizmo
+    400066: RigTail5
+    400068: RigTail5Gizmo
+    2100000: 01 - Default
+    4300000: Ghost
+    7400000: Dash Forward In Place
+    9500000: //RootNode
+    13700000: Ghost
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dash Forward In Place
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

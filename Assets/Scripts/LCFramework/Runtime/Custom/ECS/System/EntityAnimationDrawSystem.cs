@@ -4,7 +4,7 @@ using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
-using static AnimationRendererAssetDictComponentData;
+using static EntityAnimationRendererAssetDictComponentData;
 
 [UpdateInGroup(typeof(EntityAnimationGroup))]
 [UpdateAfter(typeof(EntityAnimationSystem))]
@@ -13,12 +13,12 @@ public partial class EntityAnimationDrawSystem : SystemBase
     private class AnimationDrawComponentData
     {
         public DictData AssetData;
-        public NativeList<AnimationInstanceComponentData> _trulyDatas;
+        public NativeList<EntityAnimationInstanceComponentData> _trulyDatas;
 
         private Texture2D _texture;
         private int _currentSize;
         private int _currentSizePow2;
-        private NativeArray<AnimationInstanceComponentData> _texDatas;
+        private NativeArray<EntityAnimationInstanceComponentData> _texDatas;
 
         private Material _material;
         private Mesh _mesh;
@@ -26,12 +26,12 @@ public partial class EntityAnimationDrawSystem : SystemBase
         private ComputeBuffer _computeBuffer;
         private int _subMeshIndex;
         private uint[] _args = new uint[5] { 0, 0, 0, 0, 0 };
-        private const int _size = 2;
+        private const int _size = 3;
 
         public void OnCreate()
         {
-            _texDatas = new NativeArray<AnimationInstanceComponentData>(_currentSize, Allocator.Persistent);
-            _trulyDatas = new NativeList<AnimationInstanceComponentData>(Allocator.Persistent);
+            _texDatas = new NativeArray<EntityAnimationInstanceComponentData>(_currentSize, Allocator.Persistent);
+            _trulyDatas = new NativeList<EntityAnimationInstanceComponentData>(Allocator.Persistent);
             _computeBuffer = new ComputeBuffer(1, _args.Length * sizeof(uint), ComputeBufferType.IndirectArguments);
         }
 
@@ -84,7 +84,6 @@ public partial class EntityAnimationDrawSystem : SystemBase
 
             _args[1] = (uint)trulyDataLength;
             _computeBuffer.SetData(_args);
-            //Debug.LogError($"Draw {trulyDataLength}");
             Graphics.DrawMeshInstancedIndirect(
                 _mesh
                 , _subMeshIndex
@@ -117,7 +116,7 @@ public partial class EntityAnimationDrawSystem : SystemBase
             }
 
             _texDatas.Dispose();
-            _texDatas = new NativeArray<AnimationInstanceComponentData>(_currentSizePow2, Allocator.Persistent);
+            _texDatas = new NativeArray<EntityAnimationInstanceComponentData>(_currentSizePow2, Allocator.Persistent);
 
             _texture = new Texture2D(_currentSize, _currentSize, TextureFormat.RGBAFloat, false);
             _texture.filterMode = FilterMode.Point;
@@ -128,7 +127,7 @@ public partial class EntityAnimationDrawSystem : SystemBase
     }
 
     private Dictionary<int, AnimationDrawComponentData> _allDraw;
-    private AnimationRendererAssetDictComponentData _assetData;
+    private EntityAnimationRendererAssetDictComponentData _assetData;
 
     protected override void OnCreate()
     {
@@ -147,7 +146,7 @@ public partial class EntityAnimationDrawSystem : SystemBase
 
     protected override void OnUpdate()
     {
-        if(_assetData == null) _assetData = EntityManager.GetComponentObject<AnimationRendererAssetDictComponentData>(SystemAPI.GetSingleton<EntityPoolTag>().Owner);
+        if(_assetData == null) _assetData = EntityManager.GetComponentObject<EntityAnimationRendererAssetDictComponentData>(SystemAPI.GetSingleton<EntityPoolTag>().Owner);
         var animInstanceDatas = SystemAPI.GetSingleton<AnimationInstanceDatas>();
 
         foreach (var item in _allDraw.Values)

@@ -165,16 +165,16 @@ public class ECSAnimationMakerInspector : Editor
 
         //生成ECS组件
         var authoring = go.AddComponent<ECSAnimationAuthoring>();
-        authoring.Config = new AnimationConfigComponentData
+        authoring.Config = new EntityAnimationConfigComponentData
         {
             Width = width,
             Height = height,
         };
 
-        List<AnimationConfigBuffer> configBuffer = new List<AnimationConfigBuffer>();
+        List<EntityAnimationConfigBuffer> configBuffer = new List<EntityAnimationConfigBuffer>();
         for (int i = 0; i < _makeDatas.arraySize; i++)
         {
-            configBuffer.Add(new AnimationConfigBuffer()
+            configBuffer.Add(new EntityAnimationConfigBuffer()
             {
                 AnimationId = _makeDatas.GetArrayElementAtIndex(i).FindPropertyRelative("Id").intValue,
                 AnimationLoop = _makeDatas.GetArrayElementAtIndex(i).FindPropertyRelative("Loop").boolValue,
@@ -185,13 +185,13 @@ public class ECSAnimationMakerInspector : Editor
         }
         authoring.animationConfigs = configBuffer;
 
-        List<AnimationEventConfigBuffer> eventConfigBuffer = new List<AnimationEventConfigBuffer>();
+        List<EntityAnimationEventConfigBuffer> eventConfigBuffer = new List<EntityAnimationEventConfigBuffer>();
         for (int i = 0; i < _makeDatas.arraySize; i++)
         {
             var events = _makeDatas.GetArrayElementAtIndex(i).FindPropertyRelative("Events");
             for (int j = 0; j < events.arraySize; j++)
             {
-                eventConfigBuffer.Add(new AnimationEventConfigBuffer()
+                eventConfigBuffer.Add(new EntityAnimationEventConfigBuffer()
                 {
                     AnimationId = _makeDatas.GetArrayElementAtIndex(i).FindPropertyRelative("Id").intValue,
                     EventId = events.GetArrayElementAtIndex(j).FindPropertyRelative("EventId").intValue,

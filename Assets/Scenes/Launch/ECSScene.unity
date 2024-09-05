@@ -165,16 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _entityPoolAuthoringDatas:
   - PrefabId: 10001
-    Prefab: {fileID: 931057554888914646, guid: f2346f7bc88795947829dd704f7299a3, type: 3}
-  - PrefabId: 10002
-    Prefab: {fileID: 7987238194294496856, guid: 555902c0e31806a4598eae2763b24999,
-      type: 3}
-  - PrefabId: 10003
-    Prefab: {fileID: 8360239987050043336, guid: 70de69115c14f7546bdc94cbc5e11f49,
-      type: 3}
-  - PrefabId: 10004
-    Prefab: {fileID: 6713583744232507999, guid: 0512bd0faf929584d9d9692c481a3c93,
-      type: 3}
+    Prefab: {fileID: 867124239958985918, guid: 3f4d7b12505fdac418f00d9c0e0d61d8, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

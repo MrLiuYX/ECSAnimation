@@ -23,7 +23,7 @@ namespace Native.Procedure
 			base.OnUpdate(fsm, elpaseSecond);
 			if (!ECSBridgeManager.ECSInitDone) return;
 			ECSBridgeManager.Instance.GetSystem();
-			fsm.ChangeState<ProcedureGame>();
+			fsm.ChangeState<ProcedureMain>();
 		}
 
 		public override void OnExit(IFSM fsm)

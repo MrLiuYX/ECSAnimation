@@ -23,10 +23,10 @@ public class EntityPoolAuthroing : MonoBehaviour
         {
             var entity = GetEntity(TransformUsageFlags.Dynamic);
             var buffer =  AddBuffer<EntityPrefabBuffer>(entity);
-            var assetDictComponentData = new AnimationRendererAssetDictComponentData()
+            var assetDictComponentData = new EntityAnimationRendererAssetDictComponentData()
             {
                 AssetPathDict = new Dictionary<(string,string), int>(),
-                AssetDict = new Dictionary<int, AnimationRendererAssetDictComponentData.DictData>(),
+                AssetDict = new Dictionary<int, EntityAnimationRendererAssetDictComponentData.DictData>(),
             };
 
             for (int i = 0; i < authoring._entityPoolAuthoringDatas.Count; i++)
@@ -46,14 +46,14 @@ public class EntityPoolAuthroing : MonoBehaviour
                     if (!assetDictComponentData.AssetPathDict.TryGetValue(key, out var index))
                     {
                         index = ++assetDictComponentData.DictCount;
-                        assetDictComponentData.AssetDict.Add(index, new AnimationRendererAssetDictComponentData.DictData()
+                        assetDictComponentData.AssetDict.Add(index, new EntityAnimationRendererAssetDictComponentData.DictData()
                         {
                             Mesh = null,
                             Mat = null,
 
                             MeshPath = animation.MeshPath,
                             MatPath = animation.MatPath,
-                            State = AnimationRendererAssetDictComponentData.AssetState.None,
+                            State = EntityAnimationRendererAssetDictComponentData.AssetState.None,
                         });
                         assetDictComponentData.AssetPathDict.Add(key, index);
                     }

@@ -6,11 +6,11 @@ using UnityEngine;
 public class ECSAnimationAuthoring : MonoBehaviour
 {
     [SerializeField]
-    public List<AnimationConfigBuffer> animationConfigs;
+    public List<EntityAnimationConfigBuffer> animationConfigs;
     [SerializeField]
-    public List<AnimationEventConfigBuffer> eventConfigs;
+    public List<EntityAnimationEventConfigBuffer> eventConfigs;
     [SerializeField]
-    public AnimationConfigComponentData Config;
+    public EntityAnimationConfigComponentData Config;
 
     public string MeshPath;
     public string MatPath;
@@ -21,8 +21,8 @@ public class ECSAnimationAuthoring : MonoBehaviour
         {
             var entity = GetEntity(TransformUsageFlags.Dynamic);
 
-            var animBuffer = AddBuffer<AnimationConfigBuffer>(entity);
-            var eventBuffer = AddBuffer<AnimationEventConfigBuffer>(entity);
+            var animBuffer = AddBuffer<EntityAnimationConfigBuffer>(entity);
+            var eventBuffer = AddBuffer<EntityAnimationEventConfigBuffer>(entity);
             // 事件
             AddBuffer<EntityAnimationTriggerEventBuffer>(entity);
             AddBuffer<EntityAnimationWaitTriggerEventBuffer>(entity);
@@ -36,13 +36,16 @@ public class ECSAnimationAuthoring : MonoBehaviour
                 eventBuffer.Add(authoring.eventConfigs[i]);
             }
 
-            AddComponent<AnimationConfigComponentData>(entity, authoring.Config);
-            AddComponent<AnimationInstanceComponentData>(entity);
-            AddComponent<AnimationRuntimeComponentData>(entity, new AnimationRuntimeComponentData()
+            AddComponent<EntityAnimationConfigComponentData>(entity, authoring.Config);
+            AddComponent<EntityAnimationInstanceComponentData>(entity);
+
+            AddComponent<EntityAnimationRuntimeComponentData>(entity, new EntityAnimationRuntimeComponentData()
             {
                 Speed = 1,
+                Duration = 0.2f,
             });
-            AddComponentObject<AnimationRendererPathComponentData>(entity, new AnimationRendererPathComponentData()
+
+            AddComponentObject<EntityAnimationRendererPathComponentData>(entity, new EntityAnimationRendererPathComponentData()
             {
                 MeshPath = authoring.MeshPath,
                 MatPath = authoring.MatPath,

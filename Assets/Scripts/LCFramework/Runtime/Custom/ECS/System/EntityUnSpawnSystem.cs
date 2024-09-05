@@ -1,4 +1,5 @@
 ﻿
+using Nebukam.ORCA;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
@@ -13,6 +14,7 @@ using UnityEngine;
 [BurstCompile]
 public partial struct EntityUnSpawnSystem : ISystem
 {
+
     private DynamicBuffer<EntityPrefabBuffer> _prefabBuffer;
     private EntityCommandBuffer _cmd;
     private NativeList<int> _changeNumber;
@@ -24,6 +26,14 @@ public partial struct EntityUnSpawnSystem : ISystem
         [ReadOnly] public DynamicBuffer<EntityUnSpawnBuffer> _unSpawnBuffer;
         [ReadOnly] public DynamicBuffer<EntityPrefabBuffer> _prefabBuffer;
         public NativeList<int>.ParallelWriter _changeNumber;
+
+        [ReadOnly] public ComponentLookup<EntityRVOAgentComponentData> _rvoDataLookup;
+        [ReadOnly] public ComponentLookup<EntityLookupComponentData> _lookupDataLookup;
+        [ReadOnly] public ComponentLookup<EntityStateComponentData> _stateDataLookup;
+        [ReadOnly] public ComponentLookup<EntitySearchTag> _searchDataLookup;
+        [ReadOnly] public ComponentLookup<HpBarComponentData> _hpBarDataLookup;
+
+        [NativeDisableParallelForRestriction] public BufferLookup<EntityDamageBuffer> _damageBuffer;
 
         [BurstCompile]
         public void Execute(int index)
@@ -51,10 +61,20 @@ public partial struct EntityUnSpawnSystem : ISystem
                         Position = new float3(1, 1, 1) * 9999,
                         Rotation = quaternion.identity,
                         Scale = 0,
-                    });
+                    });                    
                     _changeNumber.AddNoResize(i);
-                    break;
 
+                    //Custom
+                    if(_rvoDataLookup.HasComponent(unSpawnData.Entity)) _cmd.RemoveComponent<EntityRVOAgentComponentData>(index, unSpawnData.Entity);
+                    if (_lookupDataLookup.HasComponent(unSpawnData.Entity)) _cmd.RemoveComponent<EntityLookupComponentData>(index, unSpawnData.Entity);
+                    if (_stateDataLookup.HasComponent(unSpawnData.Entity)) _cmd.RemoveComponent<EntityStateComponentData>(index, unSpawnData.Entity);
+                    if (_searchDataLookup.HasComponent(unSpawnData.Entity)) _cmd.RemoveComponent<EntitySearchTag>(index, unSpawnData.Entity);
+                    if (_hpBarDataLookup.HasComponent(unSpawnData.Entity)) _cmd.RemoveComponent<HpBarComponentData>(index, unSpawnData.Entity);
+                    if(_damageBuffer.TryGetBuffer(unSpawnData.Entity, out var buffer))
+                    {
+                        buffer.Clear();
+                    }
+                    break;
                 }
             }
         }
@@ -85,6 +105,13 @@ public partial struct EntityUnSpawnSystem : ISystem
             _unSpawnBuffer = unSpawnBuffer,
             _prefabBuffer = _prefabBuffer,
             _changeNumber = _changeNumber.AsParallelWriter(),
+
+            _rvoDataLookup = SystemAPI.GetComponentLookup<EntityRVOAgentComponentData>(),
+            _lookupDataLookup = SystemAPI.GetComponentLookup<EntityLookupComponentData>(),
+            _stateDataLookup = SystemAPI.GetComponentLookup<EntityStateComponentData>(),
+            _searchDataLookup = SystemAPI.GetComponentLookup<EntitySearchTag>(),
+            _hpBarDataLookup = SystemAPI.GetComponentLookup<HpBarComponentData>(),
+            _damageBuffer = SystemAPI.GetBufferLookup<EntityDamageBuffer>(),
         }.Schedule(unSpawnBuffer.Length, 1).Complete();
 
         _cmd.Playback(state.EntityManager);

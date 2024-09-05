@@ -19,6 +19,8 @@ public sealed partial class Tables
     public audioConfig.TbAudioConfig TbAudioConfig {get; }
     public miscellaneousConfig.TbMiscellaneousConfig TbMiscellaneousConfig {get; }
     public entityConfig.TbEntityConfig TbEntityConfig {get; }
+    public entityAttributeConfig.TbEntityAttributeConfig TbEntityAttributeConfig {get; }
+    public sceneConfigs.TbSceneConfigs TbSceneConfigs {get; }
 
     public Tables(System.Func<string, JSONNode> loader)
     {
@@ -33,6 +35,10 @@ public sealed partial class Tables
         tables.Add("miscellaneousConfig.TbMiscellaneousConfig", TbMiscellaneousConfig);
         TbEntityConfig = new entityConfig.TbEntityConfig(loader("entityconfig_tbentityconfig")); 
         tables.Add("entityConfig.TbEntityConfig", TbEntityConfig);
+        TbEntityAttributeConfig = new entityAttributeConfig.TbEntityAttributeConfig(loader("entityattributeconfig_tbentityattributeconfig")); 
+        tables.Add("entityAttributeConfig.TbEntityAttributeConfig", TbEntityAttributeConfig);
+        TbSceneConfigs = new sceneConfigs.TbSceneConfigs(loader("sceneconfigs_tbsceneconfigs")); 
+        tables.Add("sceneConfigs.TbSceneConfigs", TbSceneConfigs);
         PostInit();
 
         TbTranslate.Resolve(tables); 
@@ -40,6 +46,8 @@ public sealed partial class Tables
         TbAudioConfig.Resolve(tables); 
         TbMiscellaneousConfig.Resolve(tables); 
         TbEntityConfig.Resolve(tables); 
+        TbEntityAttributeConfig.Resolve(tables); 
+        TbSceneConfigs.Resolve(tables); 
         PostResolve();
     }
 
@@ -50,6 +58,8 @@ public sealed partial class Tables
         TbAudioConfig.TranslateText(translator); 
         TbMiscellaneousConfig.TranslateText(translator); 
         TbEntityConfig.TranslateText(translator); 
+        TbEntityAttributeConfig.TranslateText(translator); 
+        TbSceneConfigs.TranslateText(translator); 
     }
     
     partial void PostInit();

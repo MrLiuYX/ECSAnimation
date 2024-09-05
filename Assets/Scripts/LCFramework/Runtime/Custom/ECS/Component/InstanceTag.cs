@@ -8,4 +8,5 @@ public struct InstanceTag : IComponentData, IEnableableComponent
 {
     public Entity Self;
     public int PrefabId;
+    public long SpawnId;
 }

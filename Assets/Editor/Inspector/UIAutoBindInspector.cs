@@ -25,6 +25,7 @@ namespace Native.Editor
             { "_rawimg",typeof(RawImage)},
             { "_input",typeof(InputField)},
             { "_dropdown",typeof(Dropdown)},
+            { "_grid",typeof(GridLayoutGroup)},
         };
         private List<string> _tempBindName;
 

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": 1,
+    "SceneAssetPath": "GameScene_1",
+    "SceneName": "新手关卡",
+    "MapDataAssetPath": [
+      "Assets/AssetBundleRes/Main/ScritpObjects/Scene1/Scene1_MapData_1.asset"
+    ]
+  }
+]

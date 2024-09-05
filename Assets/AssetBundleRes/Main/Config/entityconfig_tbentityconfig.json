@@ -2,13 +2,13 @@
   {
     "Id": 10001,
     "PrefabId": 10001,
-    "ComponentTypes": [],
-    "Desc": "测试模型1"
-  },
-  {
-    "Id": 10002,
-    "PrefabId": 10001,
-    "ComponentTypes": [],
-    "Desc": "测试模型2"
+    "ComponentTypes": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "Desc": "蝙蝠怪物"
   }
 ]
