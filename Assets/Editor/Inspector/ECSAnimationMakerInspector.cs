@@ -4,6 +4,8 @@ using UnityEditor;
 using System.IO;
 using Unity.Collections;
 using Unity.Mathematics;
+using Unity.VisualScripting;
+using System.Linq;
 
 [CustomEditor(typeof(ECSAnimationMaker))]
 public class ECSAnimationMakerInspector : Editor
@@ -40,7 +42,15 @@ public class ECSAnimationMakerInspector : Editor
 
     public bool CheckGOVaild()
     {
-        _allSkin = _target.GetComponentsInChildren<Renderer>();
+        var temp = _target.GetComponentsInChildren<Renderer>().ToList();
+        for (int i = 0; i < temp.Count; i++)
+        {
+            if (temp[i] is ParticleSystemRenderer)
+            {
+                temp.RemoveAt(i--);
+            }
+        }
+        _allSkin = temp.ToArray();
         return _allSkin != null;
     }
 
@@ -71,12 +81,11 @@ public class ECSAnimationMakerInspector : Editor
 
     public void CreateECSObject(string path)
     {
-        var name = $"ECS_{Path.GetFileNameWithoutExtension(path)}";
+        var name = $"ECS_{Path.GetFileNameWithoutExtension(path).Replace(" ", "_")}";
         var go = new GameObject(name);
         go.transform.position = Vector3.zero;
         go.transform.rotation = Quaternion.identity;
         go.transform.localScale = Vector3.one;
-
         try
         {
             //生成ECS组件
@@ -86,7 +95,11 @@ public class ECSAnimationMakerInspector : Editor
             authoring.MatPath = new string[_allSkin.Length];
             for (int i = 0; i < _allSkin.Length; i++)
             {
-                Bake(name, i, _allSkin[i], out var width, out var height, out var meshPath, out var matPath);
+                int width = 0;
+                int height = 0;
+                string meshPath = "";
+                string matPath = "";
+                Bake(name, i, _allSkin[i], ref width, ref height, ref meshPath, ref matPath);
 
                 authoring.TexConfigs[i] = new EntityAnimationConfigComponentData
                 {
@@ -148,32 +161,35 @@ public class ECSAnimationMakerInspector : Editor
         Debug.Log("Create Success");
     }
 
-    private void Bake(string name, int path, Renderer _sk, out int width, out int height, out string meshPath, out string matPath)
+    private void Bake(string name, int path, Renderer _sk, ref int width, ref int height, ref string meshPath, ref string matPath)
     {
         Mesh staticMesh;
         GameObject meshAdpater = null;
         Transform targetTs = null;
-        var posOffset = float3.zero;
-        var rotOffset = float3.zero;
-        var scaleOffset = float3.zero;
+        var useMeshRenderer = false;
+        Texture mainTex = null;
+        var mainColor = Color.white;
         if (_sk as SkinnedMeshRenderer)
         {
             staticMesh = GameObject.Instantiate((_sk as SkinnedMeshRenderer).sharedMesh);
             targetTs = _sk.transform;
+            mainTex = (_sk as SkinnedMeshRenderer).sharedMaterials[0].GetTexture("_MainTex") 
+                ?? (_sk as SkinnedMeshRenderer).sharedMaterials[0].GetTexture("_BaseMap");
+            mainColor = (_sk as SkinnedMeshRenderer).sharedMaterials[0].color;
         }
         else
         {
             meshAdpater = new GameObject("MeshAdpater");
             targetTs = _sk.transform;
             var shareMesh = GameObject.Instantiate(_sk.GetComponent<MeshFilter>().sharedMesh);
+            mainTex = (_sk as MeshRenderer).sharedMaterials[0].GetTexture("_MainTex")
+                ?? (_sk as MeshRenderer).sharedMaterials[0].GetTexture("_BaseMap");
+            mainColor = (_sk as MeshRenderer).sharedMaterials[0].color;
             _sk = meshAdpater.AddComponent<SkinnedMeshRenderer>();
             (_sk as SkinnedMeshRenderer).sharedMesh = shareMesh;
             staticMesh = shareMesh;
+            useMeshRenderer = true;
         }
-
-        posOffset = targetTs.position;
-        rotOffset = targetTs.rotation.eulerAngles * Mathf.Deg2Rad;
-        scaleOffset = targetTs.localScale;
 
         width = _sk != null ? staticMesh.vertexCount : staticMesh.vertexCount;
 
@@ -192,16 +208,16 @@ public class ECSAnimationMakerInspector : Editor
         Texture2D texture = new Texture2D(width, height, TextureFormat.RGBAFloat, false);
         texture.filterMode = FilterMode.Point;
 
-        //Texture2D normalTexture = new Texture2D(width, height, TextureFormat.RGBAFloat, false);
+        Texture2D normalTexture = new Texture2D(width, height, TextureFormat.RGBAFloat, false);
         texture.filterMode = FilterMode.Point;
 
         NativeArray<ECSAnimationMaker.TexData> verticesData = new NativeArray<ECSAnimationMaker.TexData>(width * height, Allocator.Temp);
-        //NativeArray<ECSAnimationMaker.TexData> normalsData = new NativeArray<ECSAnimationMaker.TexData>(width * height, Allocator.Temp);
+        NativeArray<ECSAnimationMaker.TexData> normalsData = new NativeArray<ECSAnimationMaker.TexData>(width * height, Allocator.Temp);
 
         if (_sk as SkinnedMeshRenderer)
         {
             int index = 0;
-            //int index_normal = 0;
+            int index_normal = 0;
             for (int i = 0; i < _makeDatas.arraySize; i++)
             {
                 var clip = (_makeDatas.GetArrayElementAtIndex(i).FindPropertyRelative("Animation").objectReferenceValue as AnimationClip);
@@ -209,13 +225,41 @@ public class ECSAnimationMakerInspector : Editor
                 var jMax = Mathf.CeilToInt(clip.length / ECSAnimationMaker.Split);
                 for (float j = 0; j < jMax; j++)
                 {
-                    clip.SampleAnimation(_target, Mathf.Clamp(j * ECSAnimationMaker.Split, 0, clip.length));
-                    var mesh = new Mesh();
-                    (_sk as SkinnedMeshRenderer).BakeMesh(mesh, false);
-                    mesh.RecalculateNormals();
+                    var samplePoint = Mathf.Clamp(j * ECSAnimationMaker.Split, 0, clip.length);
+                    clip.SampleAnimation(_target, samplePoint);
+                    Mesh mesh;
+                    if (useMeshRenderer)
+                    {
+                        mesh = GameObject.Instantiate(targetTs.GetComponent<MeshFilter>().sharedMesh);
+                    }
+                    else
+                    {
+                        mesh = new Mesh();
+                        (_sk as SkinnedMeshRenderer).BakeMesh(mesh, false);
+                    }
+
+
+                    if (_sk.transform.parent != null && _sk.transform.parent != _target.transform && _sk.transform.parent.GetComponent<ECSAnimationMaker>() != null)
+                    {
+                        //var a = 0;
+                        //对子物体重新采样 生成对应的Mesh
+                        var childECSMaker = _sk.transform.parent.GetComponent<ECSAnimationMaker>();
+                        if (childECSMaker.MakeDatas.Count != 0)
+                        {
+                            var childMakeData = childECSMaker.MakeDatas[0];
+
+                            var second = childMakeData.Animation.length;
+                            var childSamplePoint = (second * samplePoint) / clip.length;
+                            childMakeData.Animation.SampleAnimation(_sk.transform.parent.gameObject, childSamplePoint);
+                            (_sk as SkinnedMeshRenderer).BakeMesh(mesh, false);
+                        }
+                    }
+
                     for (int count = 0; count < mesh.vertexCount; count++)
                     {
-                        var v3 = CalcOffset(posOffset, rotOffset, scaleOffset, mesh.vertices[count]);
+
+                        Matrix4x4 localToWorld = targetTs.localToWorldMatrix;
+                        var v3 = localToWorld.MultiplyPoint3x4(mesh.vertices[count]);
                         verticesData[index++] = new ECSAnimationMaker.TexData
                         {
                             r = v3.x, //+ offset.x,
@@ -225,17 +269,20 @@ public class ECSAnimationMakerInspector : Editor
                         };
                     }
 
-                    //for (int count = 0; count < mesh.normals.Length; count++)
-                    //{
-                    //    var v3 = CalcOffset(posOffset, rotOffset, scaleOffset, mesh.normals[count]);
-                    //    normalsData[index_normal++] = new ECSAnimationMaker.TexData
-                    //    {
-                    //        r = v3.x,// + offset.x,
-                    //        g = v3.y,// + offset.y,
-                    //        b = v3.z,// + offset.z,
-                    //        a = 0,
-                    //    };
-                    //}
+                    mesh.RecalculateNormals();
+
+                    for (int count = 0; count < mesh.normals.Length; count++)
+                    {
+                        Matrix4x4 localToWorld = targetTs.localToWorldMatrix;
+                        var v3 = localToWorld.MultiplyPoint3x4(mesh.normals[count]);
+                        normalsData[index_normal++] = new ECSAnimationMaker.TexData
+                        {
+                            r = v3.x,// + offset.x,
+                            g = v3.y,// + offset.y,
+                            b = v3.z,// + offset.z,
+                            a = 0,
+                        };
+                    }
                 }
             }
 
@@ -246,7 +293,8 @@ public class ECSAnimationMakerInspector : Editor
                 mesh.RecalculateNormals();
                 for (int count = 0; count < mesh.vertexCount; count++)
                 {
-                    var v3 = CalcOffset(posOffset, rotOffset, scaleOffset, mesh.vertices[count]);
+                    Matrix4x4 localToWorld = targetTs.localToWorldMatrix;
+                    var v3 = localToWorld.MultiplyPoint3x4(mesh.vertices[count]);
                     verticesData[index++] = new ECSAnimationMaker.TexData
                     {
                         r = v3.x,// + offset.x,
@@ -256,17 +304,18 @@ public class ECSAnimationMakerInspector : Editor
                     };
                 }
 
-                //for (int count = 0; count < mesh.normals.Length; count++)
-                //{
-                //    var v3 = CalcOffset(posOffset, rotOffset, scaleOffset, mesh.normals[count]);
-                //    normalsData[index_normal++] = new ECSAnimationMaker.TexData
-                //    {
-                //        r = v3.x,// + offset.x,
-                //        g = v3.y,// + offset.y,
-                //        b = v3.z,// + offset.z,
-                //        a = 0,
-                //    };
-                //}
+                for (int count = 0; count < mesh.normals.Length; count++)
+                {
+                    Matrix4x4 localToWorld = targetTs.localToWorldMatrix;
+                    var v3 = localToWorld.MultiplyPoint3x4(mesh.normals[count]);
+                    normalsData[index_normal++] = new ECSAnimationMaker.TexData
+                    {
+                        r = v3.x,// + offset.x,
+                        g = v3.y,// + offset.y,
+                        b = v3.z,// + offset.z,
+                        a = 0,
+                    };
+                }
             }
         }
 
@@ -274,44 +323,40 @@ public class ECSAnimationMakerInspector : Editor
         texture.SetPixelData(verticesData, 0);
         texture.Apply();
 
-        //normalTexture.SetPixelData(normalsData, 0);
-        //normalTexture.Apply();
+        normalTexture.SetPixelData(normalsData, 0);
+        normalTexture.Apply();
 
         verticesData.Dispose();
 
         meshPath = Path.Combine("Assets/AssetBundleRes/Main/Prefabs/ECSRendererData", name, $"{name}_{path}_mesh.mesh");
         matPath = Path.Combine("Assets/AssetBundleRes/Main/Prefabs/ECSRendererData", name, $"{name}_{path}_mat.mat");
         var texturePath = Path.Combine("Assets/AssetBundleRes/Main/Prefabs/ECSRendererData", name, $"{name}_{path}_DataTex.asset");
-        //var normalTexturePath = Path.Combine("Assets/AssetBundleRes/Main/Prefabs/ECSRendererData", name, $"{name}_{path}_NormalTex.asset");
+        var normalTexturePath = Path.Combine("Assets/AssetBundleRes/Main/Prefabs/ECSRendererData", name, $"{name}_{path}_NormalTex.asset");
         if (File.Exists(meshPath)) File.Delete(meshPath);
         if (File.Exists(matPath)) File.Delete(matPath);
         if (File.Exists(texturePath)) File.Delete(texturePath);
-        //if (File.Exists(normalTexturePath)) File.Delete(normalTexturePath);
+        if (File.Exists(normalTexturePath)) File.Delete(normalTexturePath);
         AssetDatabase.Refresh();
 
         if (_sk as SkinnedMeshRenderer)
         {
-            //var mesh = new Mesh();
-            //(_sk as SkinnedMeshRenderer).BakeMesh(mesh);
             AssetDatabase.CreateAsset(staticMesh, InternalCheckPathVaild(meshPath));
         }
-        //else
-        //{
-        //    AssetDatabase.CreateAsset(staticMesh, InternalCheckPathVaild(meshPath));
-        //}
 
 
         serializedObject.ApplyModifiedProperties();
 
         AssetDatabase.CreateAsset(texture, InternalCheckPathVaild(texturePath));
 
-        //AssetDatabase.CreateAsset(normalTexture, InternalCheckPathVaild(normalTexturePath));
+        AssetDatabase.CreateAsset(normalTexture, InternalCheckPathVaild(normalTexturePath));
 
         AssetDatabase.Refresh();
 
         mat.SetTexture("_VertexDataTex", AssetDatabase.LoadAssetAtPath<Texture2D>(texturePath));
-        //mat.SetTexture("_NormalTex", AssetDatabase.LoadAssetAtPath<Texture2D>(normalTexturePath));
+        mat.SetTexture("_NormalTex", AssetDatabase.LoadAssetAtPath<Texture2D>(normalTexturePath));
         mat.SetFloat("_UVX", 1f / width);
+        mat.SetColor("_MainColor", mainColor);
+        if (mainTex != null) mat.SetTexture("_MainTex", mainTex);
 
         AssetDatabase.CreateAsset(mat, InternalCheckPathVaild(matPath));
 
